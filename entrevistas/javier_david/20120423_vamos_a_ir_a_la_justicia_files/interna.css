@@ -1,0 +1,557 @@
+#cuerpo {
+	background-image: url(/images_diseno/imagenes/bg_cuerpo_interna.gif);
+}
+.contenedorModulo a:visited {
+	font-weight: normal;
+}
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+#columnaPpal {
+	float: left;
+	width: 660px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+h1 {
+	font-size: 33px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	line-height: 33px;
+}
+#columnaPpal  .antetitulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+	color: #700926;
+	text-transform: uppercase;
+	padding: 5px;
+	background-color: #F2F2F2;
+	line-height: 11px;
+}
+#columnaPpal .antetitulo .fecha {
+	text-transform: lowercase;
+	float: right;
+	color: #2B478A;
+}
+#columnaPpal /* FIN PERSONALIZADOS DE CANALES */
+ .antetitulo h2 {
+	font-weight: normal;
+	font-size: 11px;
+	color: #700926;
+	text-transform: uppercase;
+	padding: 0px;
+	line-height: 11px;
+	margin: 0px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.copete    {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 10px;
+	/*border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #700926;
+	font-size: 16px;*/
+	line-height: normal;
+	font-style: italic;
+}
+
+
+.textoNota {
+	font-size: 13px;
+	line-height: 16px;
+}
+.textoNota p {
+	font-size: 13px;
+	color: #666666;
+	padding-bottom: 3px;
+	line-height: 18px;
+}
+.notasRelacionadas {
+	float: left;
+	width: 220px;
+	margin-top: 7px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid #CCCCCC;
+}
+.notasRelacionadas     h4, .notasFotos h4    {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+.notasRelacionadas a {
+	color: #003366;
+	text-decoration: none;
+	font-size: 11px;
+	line-height: 13px;
+	padding-left: 5px;
+	display: block;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+.notasRelacionadas a:hover {
+	color: #002A49;
+	text-decoration: underline;
+}
+
+.notasRelacionadas a:visited {
+	color: #999999;
+}
+
+
+.notasRelacionadaspie {
+	margin-top: 7px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 0px solid #CCCCCC;
+}
+.notasRelacionadaspie     h4, .notasFotos h4    {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.notasRelacionadaspie a {
+	color: #003366;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 13px;
+	padding-left: 0px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+.notasRelacionadaspie a:hover {
+	color: #002A49;
+	text-decoration: underline;
+}
+
+
+.contenedorNotaFoto {
+	width: 220px;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 0px;
+}
+.epigrafe {
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+}
+.notasFotos {
+	background-color: #FFFFFF;
+	float: left;
+	width: 220px;
+	margin-top: 7px;
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+	border: 1px solid #CCCCCC;
+	padding-top: 2px;
+	font-size: 11px;
+	color: #666666;
+	line-height: 13px;
+}
+.ver_mas_fotos  a {
+	font-size: 9px;
+	text-decoration: none;
+	color: #FFFFFF;
+	line-height: 9px;
+	text-transform: uppercase;
+	display: block;
+	padding: 3px;
+	/* para IE */
+	_padding-top:5px;
+	*padding-top:5px;
+
+
+	text-align: center;
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-top: 4px;
+	background-color: #2B478A;
+}
+.ver_mas_fotos  a:hover {
+	color: #FFFFCC;
+	background-color: #1A2B53;
+}
+
+.textoNota p a {
+	color: #BE031F;
+	text-decoration: none;
+	text-decoration:underline;	/*
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #700926;*/
+}
+.textoNota .fecha {
+	color: #000066;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	display: block;
+}
+
+.textoNota strong {
+	color: #BE031F;
+}
+
+.textoNota  p  a:hover {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: #700926;
+}
+.grisF2 {
+	background-color: #F2F2F2;
+}
+.pading10 {
+	padding: 10px;
+}
+.bordegris {
+	border: 1px solid #CCCCCC;
+}
+
+.font12 p {
+	font-size: 12px;
+}
+.font11 {
+	font-size: 11px;
+}
+
+.marginLeft25 {
+	margin-left: 25px;
+}
+.acciones {
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #224466;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.acciones a {
+	color: #000066;
+	text-decoration: none;
+}
+.acciones a:hover {
+	text-decoration: underline;
+}
+.acciones a:visited {
+	font-weight: bold;
+}
+.comentariosTitulo  {
+	padding-left: 12px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #224466;
+	float: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #224466;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 650px;
+}
+
+
+
+
+.comentariosTitulo a {
+	text-decoration: none;
+	color: #224466;
+	font-weight: bold;
+}
+.comentariosTitulo a:hover {
+	text-decoration: underline;
+}
+.comentariosTitulo h4 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+.comentariosIngresar {
+	float: right;
+	font-size: 11px;
+	text-align: right;
+	padding-right: 10px;
+}
+.comentario {
+	background-image: ;
+	clear: both;
+	border-bottom-width: 1px;
+	border-bottom-style:  solid;
+	border-bottom-color: #CCCCCC;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.comentario .dataAutor {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #002A49;
+	padding-bottom: 5px;
+	text-transform: lowercase;
+}
+.comentario  .dataAutor .numero {
+	float: left;
+	width: 20px;
+	font-weight: bold;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #002A49;
+	margin-right: 5px;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.comentario .texto {
+	font-size: 12px;
+	color: #777777;
+	padding-left: 5px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+}
+.paginacion {
+	text-align: center;
+}
+
+.comentarioPoliticas {
+	font-size: 10px;
+	float: left;
+	color: #999999;
+	line-height: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 495px;
+	padding-right: 10px;
+}
+.comentarioBoton {
+	float: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+input {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 3px;
+	font-size: 12px;
+	border: 1px solid #666666;
+	line-height: 12px;
+}
+
+
+textarea {
+	border: 1px solid #CCCCCC;
+	width: 628px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 100px;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	/* barra del textarea (solo ie) */
+	
+	scrollbar-arrow-color: #464646;
+	scrollbar-3dlight-color: #CCCCCC;
+	scrollbar-darkshadow-color: #999999;
+	scrollbar-face-color: #D4D0C8;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #CCCCCC;
+	scrollbar-track-color: #e6e6e6;
+	
+	
+	
+}
+label {
+	margin: 0px;
+	padding: 0px;
+}
+.amarilloClarito {
+	background-color: #FFFFF2;
+}
+#contenedorOpinionLogin {
+	padding-bottom: 10px;
+	float: right;
+	font-size: 12px;
+	line-height: 10px;
+	padding-top: 7px;
+	margin: 0px;
+}
+#contenedorOpinionLogin input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#666;
+	padding: 0px;
+	height:16px;
+	line-height:16px;
+	padding-left:3px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	clear: both;
+	border: 1px solid #CCCCCC;
+}
+.deje-su-comentario {
+	float: left;
+	width: 200px;
+	padding-top: 3px;
+}
+.botonAgregarComentario {
+	padding-top: 7px;
+	padding-bottom: 0px;
+	line-height: 12px;
+	margin: 0px;
+	text-align: center;
+}
+
+/* ESTILOS PERSONALIZADOS DE CANALES */
+
+
+.rojo {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+
+
+.div_compartir
+{
+	border-width:1px;
+	border-style:solid;
+	border:#E4E4E4;
+	margin-bottom:4px;
+	padding:2px;
+	margin-top:4px;
+}
+
+.titulocompartir
+{
+	float:right;
+	padding-right:5px;
+	
+}
+
+.div_compartir .iconos
+{
+	float:right;
+	padding-right:5px;
+}
+
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+
+/*
+----------------------------------------------------------------*/
+.autorYaccion .avatar{float:left;margin-right:10px;_display:inline;}
+.responder a{background-image:url(/imagenes/ico_replica.gif);background-repeat:no-repeat;background-position:left center;
+font-weight:700;cursor:pointer;text-align:right;color:#2A5486;position:relative;padding-left:22px;}
+.responder a span{display:none;font-family:Tahoma, Geneva, sans-serif;font-size:9px;color:#FFF;background-image:url(/imagenes/ico_mensaje_replica.gif);background-repeat:no-repeat;background-position:right top;position:absolute;font-weight:400;height:17px;width:73px;right:0;top:13px;text-align:center;padding-top:7px;padding-left:2px;}
+.responder a:hover span{display:block;}
+
+.alerta a{background-image:url(/imagenes/ico_alerta.gif);background-repeat:no-repeat;background-position:left center;
+font-weight:700;cursor:pointer;text-align:right;color:#2A5486;position:relative;padding-left:22px;}
+.alerta a span{display:none;font-family:Tahoma, Geneva, sans-serif;font-size:9px;color:#FFF;background-image:url(/imagenes/ico_mensaje_replica.gif);background-repeat:no-repeat;background-position:right top;position:absolute;font-weight:400;height:17px;width:73px;right:9px;top:15px;text-align:center;padding-top:7px;padding-left:2px;}
+.alerta a:hover span{display:block;}
+
+
+.votar{display:block;float:left;height:20px;padding-left:20px;background-repeat:no-repeat;background-position:center bottom;cursor:pointer;padding-right:3px;}
+.votar:hover{background-position: center top;}
+.autorYaccion .positivo{background-image:url(/imagenes/ico_manito_up.gif);}
+.autorYaccion .negativo{background-image:url(/imagenes/ico_manito_down.gif);}
+.autorYaccion .abuso{background-image:url(/imagenes/abuso.gif);}
+.votar a:hover{background-position:top;}
+.resultado{float:left;font-weight: bold;padding-top: 1px;padding-left: 2px;}
+.autorYaccion .colorPositivo,.verde{color:#2c9c00;}
+.autorYaccion .colorNegativo,.rojo{color:#8d3400;}
+.azul {color:#2a5486}
+
+
+.votarYresultados{background-color:#F2F2F2;margin-bottom:-10px;height:20px;margin-top:7px;background-image:url(/imagenes/bg_votar.gif);background-repeat:repeat-x;background-position:top;}
+.votarYresultados a{display:block;color:#2A5486;font-size:11px;line-height:11px;text-align:center;height:16px;padding-top:4px;}
+.votarYresultados a:hover{background-color:#F1F2F3;color:#8D3400;}
+.votars,.resultados{float:left;width:50%;}
+.votars a{background-image:url(/imagenes/menu_sup_separador.gif);background-repeat:no-repeat;background-position:right center;}
+
+#idcuerpo{color:#666666;}
+
+
+/*
+________________________________________________________________
+CAJA HERRAMIENTAS 17/10/2011
+________________________________________________________________*/
+.cajaherramientas {
+	padding: 5px 0px;
+	float: left;
+	width: 650px;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	position: relative;
+	margin: 5px 0px 15px 0px;
+}
+
+.email a{
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #1E425E;
+	background: url("/images_diseno/imagenes/email.gif") no-repeat left center;
+	padding-left: 20px;
+	margin-left:15px;
+	text-decoration:none;
+	height:15px;
+
+}
+
+.imprimir a{
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #1E425E;
+	background: url("/images_diseno/imagenes/imprimir.gif") no-repeat left center;
+	padding-left: 20px;
+	margin-left:15px;
+	text-decoration:none;
+	height:15px;
+
+}
+.comentarios {
+    background-image: url("/images_diseno/imagenes/ico_comentarios.gif");
+    background-position: left 1px;
+    background-repeat: no-repeat;
+    border-right: 0 solid #700926;
+    float: left;
+	margin-left:15px;
+    margin-right: 5px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.comentarios a {
+    font: 11px Arial, Helvetica, sans-serif;
+	color: #1E425E;
+    text-decoration: none;
+}
+ol, ul {
+    list-style: none outside none;
+}
+ul, li {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.cajaherramientas ul { float:right;}
+.cajaherramientas .fechabarra { float:left;}
