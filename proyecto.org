@@ -1,0 +1,89 @@
+#+TITLE: Notas respecto al proyecto "no e-voto"
+#+AUTHOR: Octavio Ruiz; Gunnar Wolf
+
+
+* Reunión con Rubén Aquino (DSC-UNAM) [2012-05-02]
+
+** Número medio-temático de la revista /.Seguridad/
+ - La revista es para un público "doméstico" → No artículos técnicos,
+   pero sí invitando a la reflexión
+ - Revista bimestral, en línea
+ - Sería para publicar el número a publicarse en la segunda quincena
+   de junio o primera de julio
+ - Extensión: 2 a 3 cuartillas (luego vemos detalles)
+ - La idea de Rubén: Contactar con autores que presenten por lo menos
+   tres puntos de vista (la revista tiene normalmente cinco
+   artículos):
+   - A favor de las urnas electrónicas
+   - En contra de las urnas electrónicas
+   - Experiencias internacionales para bien y para mal
+   ...Pero hay que contactar con ellos. ¿Quién? (Gunnar habla en
+   contra)
+
+** ¿Convenio más o menos formal?
+ - Me interesa que hagamos un convenio medio-formal de colaboración
+   con el tema, en parte para la parte formal (avalar mi trabajo en
+   e-voto ante el IIEc), en parte para poder presentarnos formalmente
+   como un proyecto constituído si vamos con algún politicoso
+ - ...Hay que averiguar en formas internas/legales en la UNAM al
+   respecto
+
+** De plática más aleatoria
+*** ¿Cómo se concentra la información electoral hoy en día?
+ - Los votos depositados en las urnas son contadas manualmente, y se
+   llenan las actas correspondientes
+ - Cada paquete electoral (urna) es /transportado físicamente/ a la
+   cabecera distrital del IFE correspondiente
+ - En las cabeceras distritales los datos de las actas se capturan en
+   terminales y suben a la red del IFE; las cabeceras distritales son
+   la fuente autoritaria de información (*no hay* comunicación
+   telefónica o inalámbrica alguna desde cada casilla)
+ - Este tema salió por la duda del rol de la telefonía celular para la
+   operación de las urnas en Jalisco
+   - Si hay transmisión por medio de red pública, se pierde un
+     importante elemento de control / autenticación
+*** Abordar como dos temas completamente separados: Urna electrónica y voto por Internet
+ - El primero es más importante, el segundo es mucho más difícil que
+   se sostenga ante un análisis
+ - En reuniones, el IEDF dijo estar de acuerdo con asumir el costo de
+   no tener autenticación de la verdadera identidad de cada votante
+   no-presencial
+*** Buscar experiencias de entidades académicas auditando/validando esquemas de voto electrónico
+ - Sea en urnas electrónicas o en línea
+ - Explorar en el Instituto de Ingeniería, en el IIMAS
+ - ¿IPN? ¿Contactar vía ToGnu?
+ - Hubo una nota periodística alrededor de julio o agosto del 2011
+   publicada en Reforma (*BUSCAR!*) en que el Consejero Presidente del
+   IEDF dijo que ha habido colaboración con la UNAM y que contaban con
+   una implementación super-segura. Rubén y el DSC pidieron
+   expresamente no comentar respecto al tema; en caso de haber algo,
+   no fue a través del DSC. (¿vía quién fue?)
+
+** Líneas temáticas a desarrollar
+ - ¿Quién es el proveedor del sistema de *voto extranjero en línea* al
+   IEDF? Averiguar, insistir vía IFAI
+ - Las urnas electrónicas como /capricho tecnológico/
+   - La importancia política de tener /la primer implementación
+     exitosa/
+   - Y de dificultar cualquier auditoría, para no tener la primer
+     implementación /fracasada/
+ - El voto extranjero: Realidad en diferentes entidades
+   - El IEDF puede darse el lujo de renunciar a ciertos candados
+     (p.ej. una verdadera identificación del votante) por el poco
+     impacto de la población emigrada: Aproximadamente el 0.1% del
+     padrón utilizó voto electrónico en 2006/2009
+   - La situación en los estados altamente expulsores (Zacatecas,
+     Guanajuato, Michoacán, ...?) es muy distinta: Puede
+     verdaderamente decidir una elección
+   - Este planteamiento da también el mensaje al elector emigrado que
+     su voto se le da porque de todos modos no cuenta
+
+** Personas a contactar
+ - Carlos Castro (IIMAS) :: Unidad de Voto Electrónico
+ - Gerardo Vega (DGTIC) :: Temas de criptografía
+
+** Buscar publicar en otros medios orientados a tecnología (¿y/o a política?), a ver si pega
+ - [[http://www.bsecure.com.mx/home/][NetMedia bSecure]]
+ - [[http://www.computerworldmexico.mx/][Computer World México]]
+ - [[http://www.red.com.mx/][RED: La comunidad de expertos en TICs]]
+ - [[http://www.informationweek.com.mx/home/][Information Week Mexico]]
