@@ -79,7 +79,11 @@
      su voto se le da porque de todos modos no cuenta
 
 ** Personas a contactar
- - Carlos Castro (IIMAS) :: Unidad de Voto Electrónico
+ - Carlos Castro Mendoza ::
+   - Coordinador de la /Unidad de Voto Electrónico/ en la Dirección de
+     Sistemas y Servicios Institucionales de DGTIC
+   - [[mailto:carloscastro@unam.mx][carloscastro@unam.mx]]
+   - tel. 56223672, 56223032
  - Gerardo Vega (DGTIC) :: Temas de criptografía
 
 ** Buscar publicar en otros medios orientados a tecnología (¿y/o a política?), a ver si pega
@@ -87,3 +91,180 @@
  - [[http://www.computerworldmexico.mx/][Computer World México]]
  - [[http://www.red.com.mx/][RED: La comunidad de expertos en TICs]]
  - [[http://www.informationweek.com.mx/home/][Information Week Mexico]]
+
+* Puntos a revisar partiendo de la página Web [[http://www.votachilango.org.mx][Vota chilango]]
+  (más específicamente, [[http://www.votachilango.org.mx/interiores/preguntas-frecuentes.html][las preguntas frecuentes]])
+ - ¿Debo votar el mismo día de la jornada electoral? ::
+
+   No. Si elegiste la vía postal (...) si optaste por vía internet, el
+   sistema de votación estará disponible de las *8:00 horas del 28 de
+   junio a las 18:00 horas del 1 de julio de 2012*.
+
+ - ¿Quién va a garantizar que mi voto se contará? ::
+
+   El IEDF garantiza que tu voto, sea vía postal o por la electrónica,
+   será computado para elegir al Jefe de Gobierno del Distrito
+   Federal. Para ello se instalarán Mesas Directivas de Casilla que
+   recibirán y contarán exclusivamente los votos emitidos desde el
+   extranjero. No obstante lo anterior, si elegiste votar por vía
+   internet, el sistema te proporcionará un comprobante de votación el
+   cual te garantiza que tu voto fue contabilizado y depositado en la
+   "urna virtual".
+
+   - La emisión del comprobante de votación puede ir en contra de la
+     secrecía del voto
+
+ - Si no tengo internet en casa ¿puedo utilizar uno público para votar? ::
+
+   Si. Podrás hacerlo por medio de cualquier computadora que tenga
+   acceso a internet.
+
+    - ...¿Vulnerabilidad a malware en computadoras públicas en sitios
+      con alta densidad de mexicanos?
+
+ - ¿Es aceptado que voten en mi internet el número de personas que deseen hacerlo? ::
+
+   Si. Cada ciudadano tendrá acceso al sistema por medio de contraseñas
+   únicas y personalizadas.
+
+** Solicitud de información a [[http://www.iedf.org.mx/index.php/transparencia1][Transparencia y Acceso a la Información Pública]] IEDF
+
+ - Acuerdos relevantes (de la [[http://www.votachilango.org.mx/interiores/que-es-el-voto-chilango.html][página "¿Qué es el voto chilango?"]] de votachilango.org)
+   - Acuerdo del Consejo General del Instituto Electoral del Distrito
+     Federal, por el que se aprueban los diseños y modelos de una
+     boleta electoral virtual, dos actas electorales y dos documentos
+     electorales auxiliares para recabar el voto de los ciudadanos del
+     Distrito Federal residentes en el extranjero para la elección de
+     Jefe de Gobierno en el Proceso Electoral Ordinario 2011-2012, vía
+     electrónica por Internet. ([[http://www.votachilango.org.mx/pdf/ACU-017-12.pdf][ACU-17-12]] - aprobado el 25 de enero
+     de 2012)
+
+ - Correo enviado solicitando información [2012-05-03]
+#+srcname correo_iedf
+#+begin_src rfc822
+  From: Gunnar Wolf <gwolf@gwolf.org>
+  To: oficinadeinformacionpublica@iedf.org.mx
+  Cc:
+  Bcc: tacvbo@tacvbo.net
+  Subject: Solicitud de información respecto a "Voto Chilango"
+  Reply-To:
+
+  Lic. José Jacinto Díaz Careaga, responsable de la Oficina de
+  Información Pública del Instituto Electoral del Distrito Federal,
+
+  Acorde con el Artículo 47 de la Ley de Transparencia y Acceso a la
+  Información Pública del Distrito Federal, me permito solicitar a
+  través de Usted a la Dirección Ejecutiva de Organización y Geografía
+  Electoral del Instituto Electoral del Distrito Federal
+  los siguientes datos:
+
+  • ¿Qué empresa desarrolló el sistema que será empleado para la
+  recepción de votos de ciudadanos del Distrito Federal residentes en
+  el extranjero que decidan emplear el Procedimiento de Votación
+  Electrónica por Internet ("Vota Chilango")?
+
+  • ¿Cuáles son los datos técnicos de dicho sistema? Esto es, ¿Sobre qué
+  base tecnológica está desarrollado? ¿Sobre qué base operativa
+  (hardware) será desplegado?
+
+  • ¿A cuántas revisiones/auditorías de seguridad ha sido expuesto el
+  sistema desarrollado? ¿Cuáles han sido las entidades encargadas de
+  realizarlas? ¿Cuál ha sido su evaluación?
+
+  Agradeceré su respuesta, tanto por vía electrónica a esta misma
+  dirección de e-mail (gwolf@gwolf.org) como por vía postal, quedando
+  como domicilio para recibir la información o notificaciones
+  relevantes:
+
+  Gunnar Eyal Wolf Iszaevich
+  Instituto de Investigaciones Económicas
+  Cto. Mtro. Mario de la Cueva S/N
+  Ciudad Universitaria, CP 04510
+  México D.F.
+  MÉXICO
+
+  Solicito a usted la información me sea presentada en copias simples o,
+  en su caso, por vía electrónica.
+
+  Agradeciendo de antemano sus amables atenciones, quedo de usted.
+
+
+                - Gunnar Wolf.
+#+end_src
+
+#+srcname correo_ana_bertha_guzman
+#+begin_src rfc822
+From: Gunnar Wolf <gwolf@gwolf.org>
+To: Ana Bertha Guzmán Alatorre <anabertha.guzman@congresojal.gob.mx>
+Cc:
+Bcc: tacvbo@tacvbo.net
+Subject: Problemáticas del voto electrónico
+Reply-To:
+
+Diputada Ana Bertha Guzmán,
+
+Si bien yo no soy habitante siquiera del Estado para el cual usted es
+representante, soy un mexicano preocupado por lo que veo que está
+ocurriendo. Me tomo la libertad de escribirle motivado por lo
+publicado el pasado día 25 de abril por La Jornada de Jalisco:
+
+http://www.lajornadajalisco.com.mx/2012/04/25/piden-suspender-voto-electronico-si-hay-dudas-de-su-confiabilidad/
+
+y muy específicamente, el primer párrafo:
+
+    Si existe “la menor duda” en la confiabilidad de la urna
+    electrónica que se utilizará en Jalisco durante la contienda
+    constitucional del 1 de julio próximo, ésta deberá ser retirada y
+    el proceso electoral tendrá que efectuarse de manera tradicional,
+    expresó ayer la presidente de la Comisión de Asuntos Electorales
+    en el Congreso del Estado, la priísta Ana Bertha Guzmán Alatorre.
+
+Llama en especial a mi atención el contacto con usted en su calidad de
+Presidenta de la Comisión de Asuntos Electorales y Vocal de la
+Comisión de Ciencia y Tecnología.
+
+Mi área de ocupación profesional es el desarrollo y administración de
+sistemas, y he enfocado mi trabajo a la seguridad en línea. En los
+últimos años, he escrito algunos artículos que recogen las
+experiencias y los análisis que diversos académicos han hecho de las
+diversas modalidades en que podría desplegarse el voto electrónico, y
+la conclusión casi unánime de los expertos en seguridad es lapidaria:
+No existe, ni puede existir, una implementación confiable. En caso de
+que le interese explorar el por qué de esta afirmación que hago, le
+dejo ligas a los artículos y capítulos de libro que he publicado al
+respecto:
+
+   • Artículo de divulgación "Voto Electrónico", publicado en la
+     edición de febrero del 2010 de la revista mexicana "Software
+     Gurú"
+     http://gwolf.org/files/1002_voto_electronico.html
+
+   • Capítulo "Voto electrónico: ¿Quién tiene realmente la decisión?"
+     del libro "Construcción Colaborativa del Conocimiento" (UNAM,
+     2011)
+     http://seminario.edusol.info/pdf/seco3_apend3.pdf
+
+En caso de que no fuera suficientemente preocupante la implementación
+en el Estado de Jalisco de urnas electrónicas, provistas por una
+empresa completamente desconocida, que no han sido auditadas aún por
+ningún equipo de expertos en seguridad en cómputo, me resulta
+sencillamente alarmante el que éstas, además, requieran de
+conectividad inalámbrica (a través de las redes celulares) para el
+envío de información a las cabeceras distritales del IEPC (¿qué
+información estarán enviando, de qué manera, cómo se certifica dicha
+información al ser recibida?)
+
+El potencial de daño a la democracia estatal y nacional si estas
+tecnología es adoptada es muy alto, mucho más si tomamos en cuenta
+que, dado que en la presente elección sólo se implementarán en cerca
+del 10% de las casillas, pero el objetivo expreso y claro es tomarlo
+como piloto para llegar a un 100% a futuro.
+
+Su voz cauta y cuidadosa me resulta inusual en el actual entorno.
+Espero poder ayudar a que no se tomen decisiones como esta meramente
+por la moda o por la percepción de que toda tecnificación es
+positiva.
+
+Mucho le agradeceré su respuesta a mi comunicación. Me pongo a sus
+órdenes para cualquier asunto relacionado.
+#+end_src
