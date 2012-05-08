@@ -1,0 +1,392 @@
+El voto electrónico amenaza la integridad de nuestras elecciones y nos oponemos a su uso en nuestra democracia.
+
+Votar es la acción fundamental de la democracia
+
+El voto está bajo ataque
+
+Confiar en el estado interno de una computadora es imposible.
+
+Auditar el codigo del sistema
+
+del framewrok
+de las bibliotecas
+del compilador
+
+y del compilador utilizado para compilarlo
+y del compilador utilizado para compilar al compilador
+
+PACMAN http://www.youtube.com/watch?v=TpMDCArdzwA
+diebold (broma) http://www.youtube.com/watch?v=T8yE3_Vw144
+
+
+urna puede hacer cualquier cosa.
+
+la computadora obdece a las personas, si no obdece al programa. 
+
+no existen criterios completos comprobables, mesurables que una urna cumpla.
+
+nuevo testamento.
+
+* ¿que resuelve el voto electrónico?
+
+¿transparencia, costos, participación?
+¿minutos de tiempo en el recuento?
+
+genera exclusión.
+
+progreso.
+
+Puntos básicos para un sistema de voto electrónico
+
+Mecanismo de auditoria independiente, que permita el recuento manual de votos ante cualquier duda o impugnación.
+Establecimiento de un marco legal que obligue a realizar una muestra significativa de recuento manual aunque no se registren impugnaciones.
+Diseño de hardware puesto a disposición e inspección pública.
+Diseño de software puesto a consideración e inspección pública.
+Términos de licenciamiento de software que garantice independencia al Estado y que no aten el proceso electoral a una firma proveedora.
+Uso exclusivo de software libre, bajo licencia GPL o similar.
+Implementación de mecanismos para determinar que lo que se inspecciona es efectivamente lo que está cargado en las máquinas de votación.
+Previsión de tiempos suficientes para inspeccionar los programas.
+Implementación de auditorías durante el proceso electoral, no sólo por parte de los partidos políticos, sino de Organizaciones No Gubernamentales y Universidades debidamente acreditadas.
+Inclusión en las opciones de votación del voto en blanco.
+Audiencia pública para la presentación e inspección del software y hardware.
+Implementación de mecanismos de auditoría tales como la emisión de boletas impresas que puedan ser recontables independientemente de la máquina.
+Garantía de seguridad sobre las bases de datos electorales que resguarden no sólo los datos personales de acuerdo a la ley vigente sino que garanticen el secreto del sufragio.
+
+
+Eficacia tecnico economica del fraude elctroal
+
+la democracia se come, cura y educa. 
+
+democraciia: forma de organización
+
+metodos formales.
+
+----
+
+aura de santidad del prefijo e a cualquier sustantivo
+lo enviste de magia.
+
+e-mexico
+e-gobierno
+e-mail
+e-stupidez.
+
+---
+
+( honesta  | conoce el sistema electroal | sabe de seguridad de información ) 
+
+interseccion de estso conjuuntos es nula
+
+---
+
+Oopen righ gropu:  voto,: acto singalar de la democracia como fundamente es el voto
+
+
+--
+
+no es mejor introduciendolo a tencolgia
+
+--- 
+
+3 aspectos vinculados estrictamente interdependientes
+
+* registro (en otros paises están peor, no es consulo) PADRON
+* emisión del voto
+* conteo
+
+----
+
+tradicional:  es confiable, resistente, el nivel de fraude no es significativo: datos duros.
+
+
+1 solo vonates autorizados pueden votar
+2 nadie puede votar mas de una vez
+3 nadie puede determianr cual fue el voto del otro
+4 duplicar el contenido del otro (informacion digital es facil de dpulbicar, el bit unidad de información altamente modificable) bit 13 4,096.
+5 nadie puede cambier el voto del otro sin ser descubierto
+6 todo votante debe asegurarse que su voto fue tomado en cuenta en el resultado final
+
+
+---
+
+juicio a invetigadores por propiedad intelectual, caso diebold
+hbo hacking democracy
+
+4,906 votos adicionales.
+«Generación espontanea del bit en la posición 13 de la memoria de la computadora»
+Bélgica elecciones del 18 de mayo del 2003.
+
+---
+
+Stalin
+
+
+---
+
+applied cryptograih 
+protocolos robustos, mencionar a beck
+interface hombre-maquina
+
+
+--
+
+La idea es muy sencilla: en vez de convocar a los ciuadadanos a que voten en las escuelas, podemos pedirles que vayan a las iglesias a votar. En ellas, los fiscales de los partidos verificarán sus documentos, y dirigirán al elector a un confesionario. Una vez en el confesionario, el ciudadano le comunica al sacerdote su voto, y éste lleva la cuenta haciendo anotaciones en un cuadero. Cerrado el acto eleccionario, los sacerdotes de la parroquia se reúnen, comparan notas, y anuncian el resultado local, comunicándolo a la diócesis. Ésta consolida los resultados de las parroquias, los anuncia y comunica a la archidiócesis, y así hasta llegar al Obispado, que finalmente anuncia el resultado definitivo.
+
+El procedimiento es sencillo y eficiente, utiliza infraestructura existente, tiene bajos costos, elimina algunas formas de fraude, y puede proporcionar los resultados con una rapidez comparable a la del voto electrónico. Además, tiene la enorme ventaja de que involucra, como garantía del proceso, a una institución que predica la verdad y el amor como virtudes supremas, y cuyos agentes han jurado dedicar su vida por entero a esos ideales.
+
+Sin embargo, cualquier persona de vocación democrática, independientemente de si profesa la fe católica o no, sabe que lo que acabo de proponer es un disparate inaceptable. La razón es muy sencilla: además de confianza, necesitamos control. Por mucho que confiemos en la Iglesia como institución, nadie aceptaría un escrutinio hecho de la manera descripta más arriba porque no es posible controlar que nadie en el proceso haya falsificado los resultados.
+
+sacerdote -> obispado -> azobispado -> 
+
+representa los mas altos valores religiosos, eticos, morales y sociales.  por los votos, el juramento hipocrǽtico.
+
+confianza pública.
+
+desde la confianza intrisencamente identica o mayor robustez que un DRE.
+
+- F Heinz
+
+--
+
+
+* seguro 
+no es auditable, no hay vias independientes.
+
+* barato
+para hacer fraudie, economía de escala
+
+* rapido y c
+
+
+*transparernte
+
+exige habilidades 
+educación básica.
+
+tautológico.
+
+----
+
+auditofira, dificultades de leer un programa ajeno, caso brasil:
+
+3 millones de líneas de código
+tribunal electroal le da a los partidos capacidad de auditarlo en 5 días sin ejecutarlo.
+
+no inlcuye: sistema opeprativo, implementación criptográfica y partes del código introducidos por la oficina de inteligencia.
+
+----
+
+
+fraude, diciplinar a miles, mas complices. 
+
+---
+
+Van Eck phreaking
+
+----
+
+
+Sociedades de riesgo
+
+los problemas presentados están en un contexto ingenieril y técnico, pocas consideraciones en como otros eventos y fenómenos en la sociedad afectan la visióno del voto electrónico. Rara vez son puestas en un contexto sociopolitico.
+
+
+No es de sorprender que los doctores que estudian los riesgos de una droga (ej inhibidores del COX-2, antiinflamatorio) y los que la prescriben.
+
+----
+
+virtud imbatible: cualquier persona que sepa leer, escribir y sumar puede, si quiere, actuar de fiscal. 
+
+
+-----
+
+votar es una preunta dificil para las ciencias de la computación.
+
+el sistema debe verificar al votante
+asegurarse qeu se vote solo una vez
+permitir auditorias y recuentos
+y por encima de todo esto, preservar el anonimato.
+
+actualmente no hay soluciones prácticas para este complejo problema y los sistemas existentes son vulnerables.
+
+
+----
+
+los sistemas de votación electrónica atentant contra la integridad de nuestras elecciones y nos oponemos a su uso en nuestra democracia.
+
+
+---
+
+el e-voto no es e-democracia
+
+consultas públicas, acceso a los representates locales.
+
+
+---
+
+que la boleta sea secreta es esencial para la democriacia.
+
+el voto es el acto fundamental de la misma
+
+----
+la democracia es mas que votar, sin duda. sin embargo el voto es como cada ciudadano puede ejercer poder real e in mediato.
+
+muy imporatne que todos puedan votar sin interferencia, seguros en el conocimiento de que su voto será contando.
+
+----
+
+en la larga historia de la democracia, hemos aprendido que en el afán del poder ciertos grupos están dispuestos
+a coercionar a los votantes para segurare que voten "en el camino correcto".
+
+si el voto es secreto no hay forma de que sean intimidados, importante, derecho  qfundamental que preoje a los votantes y la
+integridad de las elecciones.
+
+ 
+
+
+Confía en una computadora y serás inexacto.
+
+No hay tecnologái perfecta.
+A pasos adicionales, mayor número de errores potenciales.
+Los sistemas manuales al tener menos pasos son mas precisos.
+Algunas tecnologías de voto electrónico tienen un margen de error del 5 por cien.
+
+El software que hace amigable a las pantallas táctiles en los sistemas de votación electrónica, también hacen que estos sean mas inexactos.
+
+Los errores en código son comunes como todo usuario sabe. 
+
+Computerised financial systems get most of their security from audit. If a problem is suspected,
+auditors can go back through the records of the system and figure out what happened. And if the
+problem turns out to be real, the transaction can be unwound and fixed. Because elections are
+anonymous, that kind of security just isn't possible.
+
+Computer security experts are unanimous on what to do (some voting experts disagree, but it is the
+computer security experts who need to be listened to; the problems here are with the computer, not
+with the fact that the computer is being used in a voting application). They have two recommendations,
+echoed by Siva Vaidhyanathan:
+
+
+Emisión en papael:
+
+Escrutinio publico. (esto debe estar mas arriba)
+
+Computerised systems with these characteristics won't be perfect -- no piece of software is -- but they'll
+be much better than what we have now. We need to treat voting software like we treat any other
+high-reliability system.
+
+Proponents of DREs often point to successful elections as "proof" that the systems work. That
+completely misses the point. The fear is that errors in the software -- either accidental or deliberately
+introduced -- can undetectably alter the final tallies. An election without any detected problems is no
+more a proof that the system is reliable and secure, than a night that no one broke into your house is
+proof that your locks work. Maybe no one tried to break in, or maybe someone tried and succeeded --
+and you don't know it.
+
+If we're going to spend money on new voting technology, it makes sense to spend it on technol
+ogy that
+makes the problem easier instead of harder.
+
+
+La mediocre arquitectura de las PC
+
+Debido a que al apagar una PC el voltaje cae en las líneas de 5 y 12 volts,
+alguns partes del sistema pueden quedar encendidas por mas tiempo que otras.
+
+Por ejemplo:
+
+El controlador DMA, el controlador de disco duro y el disco duro en si, pueden quedar encendidos por miles de milisegundos despus de que
+los DIMMs -que son muy sensibles al voltage- se vuelvan un total disparate.
+
+Respaldo de transacciones (journaling) por bloque físico o lógico. 
+
+no resuleve le pedo del padrón
+
+no conviene carga sobre la invoación expectativas que el voto electrónico no esta llamado a resolver.
+
+Ha sido un error grave de los desarrolladores e investigadores de sistemas y programas
+considerar que el nivel de seguridad de una votación electrónica es similar al requerido
+por una entidad financiera (COX 2004); en ésta, el secreto de la operación puede ser
+conocido por terceros autorizados y, en cambio, en el voto electrónico el anonimato
+es parte esencial del mismo, con lo que nadie 
+
+
+Hemos abordado el tema desde un punto de vista tecnológico
+Falta seguir la conversación en el ámbito legal, político y social.
+
+En los sistemas de voto tradicional se producen pequeños errores de forma
+continuada, y el uso de la tecnología puede incrementarlos.
+
+
+
+
+
+Ing. Raúl Islas  ext 1207 [ 8:30 horas ] 
+
+http://www.elsotano.com.mx/libro-voto-electronico-estudio-comparado-en-una-aproximacion-juridico-politica-10275725#comentarios-tab
+
+VOTO ELECTRÓNICO
+
+Estudio comparado en una aproximación jurídico-política (Desafíos y posibilidades)
+
+http://www.fundap.org/novedades-editoriales/13-voto-electronico.html
+
+
+INSTITUTO DE INVESTIGACIONES JURIDICAS
+
+Voto electrónico, derecho y otras implicaciones
+Rodolfo Romero Flores
+Julio Alejandro Téllez Valdés
+Autores
+Coordinadora académica: Elvia Lucía Flores Ávalos
+Coordinadora editorial: Karla Beatriz Templos Núñez
+Edición: Miguel López Ruiz
+Formación en computadora: Juan Rendón Martínez
+Proceso para la Biblioteca Jurídica Virtual: Margarita García Castillo
+Primera edición: 2010
+DR © 2010. Universidad Nacional Autónoma de México
+INSTITUTO DE INVESTIGACIONES JURÍDICAS
+Circuito Maestro Mario de la Cueva s/n
+Ciudad de la Investigación en Humanidades
+Ciudad Universitaria, 04510, México, D. F.
+Impreso y hecho en México
+ISBN 978-607-02-1297-0
+
+En el marco de la tecnología, la innovación, el desarrollo ciudadano y la democratización de nuestra sociedad, 
+Es importante aclarar que el e-Voto no es lo mismo que la e-Democracia: Son
+campos de la tecnolog�a claramente distintos. Nosotros apoyamos
+desarrollos de e-Democracia y de e-Gobierno; las diferntes filosofias
+politcas al respecto y puntualmente los 
+
+
+* portales de acceso a la informacion
+* programas de citas
+* consultas ciudadananas, etc.
+
+
+En el marco  de la implementaci�n de nuevas tecnolog�as en los gobiernos en aras eficientar
+procesos e incetivar la participaci�n ciudana surge un tema importante como
+resultado de solucionar la agilidad en la obtecion de resultados, la disminuci�n
+de costos y la confiabilidad de los actores. 
+
+�Esto es realmente un problema? 
+
+
+* El acto de votar es un caso muy particular que no es mejorado al introducir nuevas tecnolog�as.
+
+* ya que es una cuesti�n dif�cil y �nica para las ciencias de la
+ computaci�n: El sistema debe verificar que uno tiene derecho a voto; saber si
+ ya realiz� este previamente en la elecci�n; y permitir auditor�as y recuentos.
+
+ Siempre debe salvaguardar su anonimato y privacidad. Actualmente no hay
+ soluciones pr�cticas a este complejo problema y los sistemas existentes son
+ inaceptablemente defectuosos.
+
+
+Uno de los m�s interesantes argumentos que ilustran por qu� las urnas
+electr�nicas carecen inherentemente de confiabilidad es el presentado --sin
+aplicarlo en �ste ramo espec�fico-- por Ken Thompson en 1983
+ en su discurso al recibir el Premio Turing de la ACM
+
+ . Thompson hace una sencilla demostraci�n de por qu� un sistema que llega al
+ usuario final  es pr�cticamente imposible de auditar por completo un programa,
+ ni siquiera teniendo su c�digo fuente, ni siquiera teniendo el c�digo fuente
+ del compilador. Traduciendo de las conclusiones de Thompson
