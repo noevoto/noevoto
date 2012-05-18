@@ -192,6 +192,44 @@
                 - Gunnar Wolf.
 #+end_src
 
+#+srcname respuesta_iedf_3300000033112
+#+begin_src rfc822
+México, D.F. a 9 de mayo de 2012
+A quien corresponda
+PRESENTE
+
+En atención a su escrito material, con fundamento en los artículos 47,
+primer párrafo; 58, fracciones I, IV y VII de la Ley de Transparencia y
+Acceso a la Información Pública del Distrito Federal; 54, fracciones I y
+II del Reglamento del Instituto Electoral del Distrito Federal en materia
+de Transparencia y Acceso a la Información Pública; 37, fracciones XVII y
+XVIII del Reglamento Interior del Instituto Electoral del Distrito
+Federal; numeral 5.3, párrafos primero y segundo del Manual de la Oficina
+de Información Pública del Instituto Electoral del Distrito Federal y
+numerales 3, fracción I; 4 y 8, párrafo primero y fracciones I y II, de
+los LINEAMIENTOS PARA LA GESTIÓN DE SOLICITUDES DE INFORMACIÓN PÚBLICA Y
+DE DATOS PERSONALES A TRAVÉS DEL SISTEMA INFOMEX DEL DISTRITO FEDERAL; por
+este medio me permito informar a usted que su solicitud de información
+quedó debidamente registrada en el Sistema Electrónico INFOMEX, con el
+número de folio 3300000033112, emitiéndose el “Acuse de recibo de
+solicitud de acceso a la información pública” mismo que anexo al presente.
+
+
+
+Por otra parte, comedidamente le solicito acuse de recibo del presente.
+
+Atentamente
+
+Oficina de Información Pública del Instituto Electoral del Distrito
+Federal
+Calle Huizaches número 25, planta baja, Colonia Rancho Los Colorines,
+Delegación Tlalpan, México, D.F., C.P. 14386, teléfono: 54 83 38 00,
+extensión 4725
+
+#+end_src
+
+Archivo en cuestión: [[./tramites/info_iedf/3300000033112.pdf]]
+
 #+srcname correo_ana_bertha_guzman
 #+begin_src rfc822
 From: Gunnar Wolf <gwolf@gwolf.org>
