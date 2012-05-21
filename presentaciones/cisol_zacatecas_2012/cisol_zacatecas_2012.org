@@ -1,0 +1,220 @@
+#+TITLE: El voto electrónico en 2012: ¿Cómo vamos?
+#+AUTHOR: Gunnar Wolf
+#+EMAIL: gwolf@gwolf.org
+#+DATE: Congreso Internacional de Software Libre (CISOL) 2012
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [bigger]
+#+BEAMER_HEADER_EXTRA: \pgfdeclareimage[height=2cm]{noevoto.png}{noevoto.png}\logo{\pgfuseimage{noevoto.png}}
+#+BEAMER_HEADER_EXTRA: \AtBeginSection[]{ \begin{frame}<beamer> \frametitle{Índice} \tableofcontents[currentsection] \end{frame} }
+#+BEAMER_FRAME_LEVEL: 2
+#+MACRO: BEAMERMODE presentation
+#+MACRO: BEAMERTHEME Darmstadt
+#+MACRO: BEAMERCOLORTHEME lily
+#+MACRO: BEAMERINSTITUTE Instituto de Investigaciones Económicas UNAM \\ Desarrollador del Proyecto Debian
+#+MACRO: BEAMERCONFURL http://noevoto.info
+#+DESCRIPTION: 
+#+KEYWORDS: Voto electrónico, voto extranjero, urna electrónica, voto por Internet, actualidad
+#+LANGUAGE: es
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:  
+#+LINK_HOME: http://noevoto.info
+#+COLUMNS: %40ITEM %10BEAME
+
+* ¿Voto electrónico?
+** ¿Quiénes somos?
+ - El grupo [[http://noevoto.info/][noevoto.info]] está formado por activistas del Software
+   Libre, la seguridad informática, y el involucramiento político en
+   nuestra sociedad
+ - Actualmente habemos dos integrantes activos (Octavio Ruiz y Gunnar
+   Wolf), pero tras un breve espacio de inactividad, /¡estamos
+   reclutando/!
+ - Buscamos hacer un análisis crítico, y tan imparcial/científico como
+   sea posible acerca del voto electrónico en México y en el mundo
+   - Es muy dificil ser imparciales, pero es fundamental para tener el
+     más básico rigor científico y credibilidad.
+
+** ¿A qué nos referimos con voto electrónico?
+ - La emisión del voto empleando /urnas electrónicas/
+   - Computadoras diseñadas y configuradas para la tarea específica de
+     recibir y contabilizar votos
+ - Supuestos auxiliares para las tareas de las /autoridades de
+   casilla/
+   - Vigilancia del voto durante la jornada electoral
+   - Conteo (y posibles recuentos) del resultado de la casilla
+   - Comunicación del resultado a las autoridades centrales
+
+** ¿Qué otros componentes se han ido agregando?
+ - Verificación del /padrón de electores/
+   - Identificación biométrica
+ - Emisión del voto a través de Internet
+   - Principalmente orientado al /voto extranjero/
+   - Aunque entran también propuestas de /voto desde casa/
+ - Envío de datos a las cabeceras distritales
+
+** Nuestra posición en resumen (planteamientos)
+#+BEGIN_CENTER
+El voto electrónico *es un peligro para la democracia*.
+
+Es /imposible/ lograr una implementación que brinde la certeza
+necesaria.
+
+Ninguno de los siguientes argumentos es suficiente:
+#+END_CENTER
+
+ - La emisión de un rastro impreso
+ - Que las urnas corran 100% con software libre
+ - Que se realicen simulacros de funcionamiento
+ - Que se efectúen auditorías de seguridad
+
+#+BEGIN_CENTER
+Todo esto hace /ligeramente menos vulnerable/ el proceso, pero no
+ataca al problema de raíz.
+#+END_CENTER
+
+** Nuestra posición en resumen (1)
+#+BEGIN_CENTER
+Pero *ninguno de estos procesos es suficiente* ni da las garantías
+mínimas aceptables.
+#+END_CENTER
+
+ - Un rastro impreso puede permitir un recuento válido… Si es correcto
+   y la urna no produce votos espontáneamente (ver NYC, 2012)
+ - Que sea software libre es bueno, pero no hay manera de estar
+   verdaderamente seguro de que el fuente presentado es /a todos
+   niveles/ el software que se está ejecutando en realidad
+   - Microcódigo, sistema, framework, compilador, aplicación…
+     (Ken Thompson, 1984 /Reflections on trusting trust/)
+
+** Nuestra posición en resumen (2)
+ - Un simulacro de funcionamiento no tiene todos los puntos de tensión
+   que una elección real. Un simulacro muestra sólo /al mejor de los
+   mundos posibles/.
+   - Ni internos — Claramente no habrá intentos de fraude cuando se
+     intenta demostrar que la solución funciona
+   - Ni externos — Un atacante que quiere comprometer una elección no
+     atacará al sistema de pruebas
+ - Las auditorías de seguridad pueden demostrar un /cierto/ nivel de
+   cuidado en el código, pero /no pueden demostrar que algo sea
+   invulnerable/.
+
+** Magia electoral
+#+BEGIN_CENTER
+#+ATTR_LaTeX: height=0.65\textheight
+[[./media/magia_electoral.png]]
+#+END_CENTER
+
+** ¿Dónde sí, dónde no, por qué?
+Hay votos de diferente naturaleza, y una de las estrategias es
+/confundirnos/ con los inocuos para que aceptemos a los peligrosos
+ - Sí ::
+   - Un recinto legislativo (voto con pizarra electrónica)
+   - Un grupo con cohesión, confianza interna
+   - Un proceso sin /gran/ (?) relevancia política: Consultas no
+     vinculantes, elecciones estudiantiles, certamenes de belleza
+     - Como veremos más adelante: Casi todos los casos que se muestran
+       como /simulacros/ de un proceso electoral real
+ - No ::
+   - Una elección constitucional (abierta a la población)
+   - Un referendo/plebiscito vinculante
+
+** Resumiendo: Características generales
+#+BEGIN_CENTER
+Un sistema de contabilidad de votos puede brindarnos 2 de 3:
+#+END_CENTER
+- Secreto
+- Confiable
+- Electrónico
+#+BEGIN_CENTER
+¿Asegurar los tres? Es fundamentalmente imposible.
+#+LaTeX: \vfill
+…Y obviar la importancia de la confiabilidad o de la secrecía del voto
+es equivalente a aceptar una dictadura.
+#+END_CENTER
+
+** El motivo de esta presentación
+ - Con esta presentación no (sólo) estamos buscando convencerlos de
+   que el voto electrónico es dañino se vea como se vea, sino ponerlos
+   al día de la situación de su adopción y las luchas que estamos
+   dando al respecto
+ - Es importante estar conscientes de cómo evoluciona este tema en
+   nuestro país, especialmente con la presión de en un año electoral
+ - Con gusto platicamos al respecto en cualquier otro espacio donde
+   puedan encontrarnos.
+
+# * Situación en Latinoamérica
+# ** Brasil
+#  - El primer país de la región en adoptar voto electrónico (1995)
+#  - El voto se emite a través de Equipos de Registro Directo (DRE)
+#  - Cobertura del 100% en las elecciones federales, 128 millones de
+#    personas
+#  - La única implementación que ha convocado la seguridad de sus
+#    equipos a escrutinio
+#    - Sergio Freitas da Silva demostró (2009), con equipo casero, cómo
+#      romper el secreto del sentido de cada voto
+#    - En 2012 investigadores de la Universidad de Brasilia lograron
+#      obtener los resultados parciales de una urna
+# ** Argentina: Las Grutas 2007
+#  - Una de las primeras experiencias fue en Las Grutas, provincia de
+#    Río Negro, en 2007
+#    - Discrepancias entre padrones electoral y digital; muchos votantes
+#      válidos no pudieron votar: En mesas tradicionales hubo 70% de
+#      participación, contra 40% en las electrónicas
+#    - Por errores de manejo, una urna eliminó todos los registros en
+#      vez de guardarlos en la memoria externa
+#    - Aproximadamente el 10% de la población presentó un amparo
+#      colectivo, y la localidad no volverá a tener voto electrónico
+# ** Argentina: Salta 2009, 2013
+#  - En 2009/2010, la tercera parte de los ciudadanos de la provincia de
+#    Salta usaron urnas electrónicas
+#  - El gobierno provincial actual impulsa un plan para llevar al 100%
+#    para las elecciones del 2013
+#    - El nivel del debate es muy triste: Casi todos los
+#      cuestionamientos son respondidos argumentando que /no podemos
+#      oponernos a la modernización/
+#    - 
+# ** Venezuela
+# ** Colombia
+# ** Perú
+# ** Otros países
+
+* Urnas electrónicas
+** Coahuila
+ - En 2005 hubo una implementación piloto con urnas diseñadas /en
+   casa/; en 2008 votaron con urnas electrónicas 11 municipios.
+   - Pero se descartó para el municipio de San Buenaventura en
+     [[http://www.eluniversal.com.mx/notas/631827.html][circunstancias poco claras]], con acusaciones de PAN, PANAL y PT de
+     que podría resultar fraudulenta
+ - Respecto al secreto del voto: En Coahuila,
+   /La urna (...) imprime un papel y ese comprobante tiene qué ser
+   firmado por el elector y depositado en una urna convencional/
+
+ [[http://www.iedf.org.mx/conv/congreso/sitio/index.php?cadena=mesa02.php][Citando a Carlos Arredondo Sibaja]], actual consejero del IEPC: Un
+ sistema de votación electrónica implica que no se cuentan los
+ comprobantes porque no hace falta. Se hacen tantas pruebas como sea
+ necesario antes de la jornada electoral, para demostrar que la
+ máquina no se equivoca y que el resultado siempre coincide
+
+** Distrito Federal
+
+** Jalisco
+ - Primeros ejercicios: 2006; el municipio de Tuxcueca
+ - Su legislación no exige (a diferencia de Coahuila, DF) la
+   transcripción manual de las actas
+   - Las urnas se comunican con la cabecera electoral sobre redes
+     celulares
+ - Hubo un intento de usar urnas electrónicas para el 100% para las
+   elecciones federales de 2012, pero se limitó a los distritos 1 y
+   17, y el municipio de Gómez Farías (11% del padrón)
+ - Hicieron las modificaciones legislativas para que el documento
+   legal de cada voto sea /el registro electrónico/ — El documento
+   legal es la memoria Flash, no el rastro impreso
+ - En las experiencias de 2006, 2009 trabajaron con urnas Toshiba; en
+   2012 con Pounce Consulting
+
+* Voto no-presencial
+
+* ¿Qué sigue?
