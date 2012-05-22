@@ -5,7 +5,7 @@
 #+startup: beamer
 #+LaTeX_CLASS: beamer
 #+LaTeX_CLASS_OPTIONS: [bigger]
-#+BEAMER_HEADER_EXTRA: \pgfdeclareimage[height=2cm]{noevoto.png}{noevoto.png}\logo{\pgfuseimage{noevoto.png}}
+#+BEAMER_HEADER_EXTRA: \pgfdeclareimage[height=2cm]{media/noevoto.png}{media/noevoto.png}\logo{\pgfuseimage{media/noevoto.png}}
 #+BEAMER_HEADER_EXTRA: \AtBeginSection[]{ \begin{frame}<beamer> \frametitle{Índice} \tableofcontents[currentsection] \end{frame} }
 #+BEAMER_FRAME_LEVEL: 2
 #+MACRO: BEAMERMODE presentation
@@ -31,8 +31,8 @@
    nuestra sociedad
  - Actualmente habemos dos integrantes activos (Octavio Ruiz y Gunnar
    Wolf), pero tras un breve espacio de inactividad, /¡estamos
-   reclutando/!
- - Buscamos hacer un análisis crítico, y tan imparcial/científico como
+   reclutando!/
+ - Buscamos hacer un análisis crítico, tan imparcial y científico como
    sea posible acerca del voto electrónico en México y en el mundo
    - Es muy dificil ser imparciales, pero es fundamental para tener el
      más básico rigor científico y credibilidad.
@@ -45,7 +45,7 @@
    casilla/
    - Vigilancia del voto durante la jornada electoral
    - Conteo (y posibles recuentos) del resultado de la casilla
-   - Comunicación del resultado a las autoridades centrales
+   - Comunicación del resultado a las autoridades electorales
 
 ** ¿Qué otros componentes se han ido agregando?
  - Verificación del /padrón de electores/
@@ -55,6 +55,12 @@
    - Aunque entran también propuestas de /voto desde casa/
  - Envío de datos a las cabeceras distritales
 
+** ¿Y cuál es el problema?
+#+BEGIN_CENTER
+#+ATTR_LaTeX: height=0.65\textheight
+[[./media/magia_electoral.png]]
+#+END_CENTER
+
 ** Nuestra posición en resumen (planteamientos)
 #+BEGIN_CENTER
 El voto electrónico *es un peligro para la democracia*.
@@ -62,64 +68,61 @@ El voto electrónico *es un peligro para la democracia*.
 Es /imposible/ lograr una implementación que brinde la certeza
 necesaria.
 
-Ninguno de los siguientes argumentos es suficiente:
+Se ha intentado acallar las críticas principalmente a través de:
 #+END_CENTER
 
- - La emisión de un rastro impreso
- - Que las urnas corran 100% con software libre
- - Que se realicen simulacros de funcionamiento
- - Que se efectúen auditorías de seguridad
+ 1. La emisión de un rastro impreso
+ 2. Que las urnas corran 100% con software libre
+ 3. Que se realicen simulacros de funcionamiento
+ 4. Que se efectúen auditorías de seguridad
 
+** Nuestra posición en resumen
 #+BEGIN_CENTER
-Todo esto hace /ligeramente menos vulnerable/ el proceso, pero no
-ataca al problema de raíz.
-#+END_CENTER
-
-** Nuestra posición en resumen (1)
-#+BEGIN_CENTER
-Pero *ninguno de estos procesos es suficiente* ni da las garantías
+Todos estos puntos hacen /ligeramente menos vulnerable/ el proceso,
+pero no resuelven al problema de raíz.
+#+LaTeX:\vfill
+ *Ninguno de estos procesos es suficiente* ni da las garantías
 mínimas aceptables.
 #+END_CENTER
 
+** ¿Por qué es insuficiente el /rastro impreso/?
  - Un rastro impreso puede permitir un recuento válido… Si es correcto
-   y la urna no produce votos espontáneamente (ver NYC, 2012)
- - Que sea software libre es bueno, pero no hay manera de estar
-   verdaderamente seguro de que el fuente presentado es /a todos
-   niveles/ el software que se está ejecutando en realidad
-   - Microcódigo, sistema, framework, compilador, aplicación…
-     (Ken Thompson, 1984 /Reflections on trusting trust/)
+   y la urna no produce votos espontáneamente
 
-** Nuestra posición en resumen (2)
+   (ver [[http://www.wnyc.org/blogs/empire/2012/may/09/reports-find-machine-errors-led-uncounted-votes-2010/][``Urnas que se calientan en el Bronx'', NYC, 2012]])
+ - No es difícil imaginar esquemas ingenuos de /ingeniería social/ que
+   dan a un individuo la capacidad de no sólo invalidar un par de
+   votos /sino que el resultado de una urna completa/
+
+   (ejemplo, [[http://www.vialibre.org.ar/2010/09/12/urnas-electronicas-con-imprimir-el-voto-no-alcanza/][Heinz 2010: ``Con imprimir el voto no alcanza'']])
+
+** ¿Por qué es insuficiente el /software libre/?
+ - Que sea software libre es bueno, sin duda
+ - Pero… ¿Cómo estar /verdaderamente/ seguro de que el fuente
+   presentado es el mismo código que el que se ejecuta?
+   - ¿A /todo nivel/? Microcódigo, sistema, framework, compilador,
+     aplicación…
+
+     ([[http://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf][Ken Thompson, 1984: ``Reflections on trusting trust'']])
+
+** ¿Por qué son insuficientes los /simulacros/?
  - Un simulacro de funcionamiento no tiene todos los puntos de tensión
    que una elección real. Un simulacro muestra sólo /al mejor de los
    mundos posibles/.
-   - Ni internos — Claramente no habrá intentos de fraude cuando se
+   - Ni internos :: Claramente no habrá intentos de fraude cuando se
      intenta demostrar que la solución funciona
-   - Ni externos — Un atacante que quiere comprometer una elección no
+   - Ni externos :: Un atacante que quiere comprometer una elección no
      atacará al sistema de pruebas
+
+** ¿Por qué son insuficientes las /auditorías/?
  - Las auditorías de seguridad pueden demostrar un /cierto/ nivel de
    cuidado en el código, pero /no pueden demostrar que algo sea
    invulnerable/.
-
-** Magia electoral
-#+BEGIN_CENTER
-#+ATTR_LaTeX: height=0.65\textheight
-[[./media/magia_electoral.png]]
-#+END_CENTER
-
-** ¿Dónde sí, dónde no, por qué?
-Hay votos de diferente naturaleza, y una de las estrategias es
-/confundirnos/ con los inocuos para que aceptemos a los peligrosos
- - Sí ::
-   - Un recinto legislativo (voto con pizarra electrónica)
-   - Un grupo con cohesión, confianza interna
-   - Un proceso sin /gran/ (?) relevancia política: Consultas no
-     vinculantes, elecciones estudiantiles, certamenes de belleza
-     - Como veremos más adelante: Casi todos los casos que se muestran
-       como /simulacros/ de un proceso electoral real
- - No ::
-   - Una elección constitucional (abierta a la población)
-   - Un referendo/plebiscito vinculante
+ - *La ausencia de evidencia no es evidencia de ausencia*
+ - Hay evidencia de que no siempre se atienden las recomendaciones más
+   básicas, incluso pre-auditoría. ¿Hacemos una auditoría a la
+   auditoría?
+   - Ver más adelante: Voto extranjero por Internet para el DF
 
 ** Resumiendo: Características generales
 #+BEGIN_CENTER
@@ -135,6 +138,22 @@ Un sistema de contabilidad de votos puede brindarnos 2 de 3:
 es equivalente a aceptar una dictadura.
 #+END_CENTER
 
+** ¿Cuándo sí, cuándo no, por qué?
+Hay votos de diferente naturaleza, y una de las estrategias es
+/confundirnos/ con los inocuos para que aceptemos a los peligrosos. El
+voto electrónico puede aceptarse:
+ - En el recinto legislativo
+   - Voto público: No requiere secreto
+ - Un grupo con cohesión, confianza interna
+   - La confianza no la brinda el sistema
+ - Un proceso sin /gran/ (?) relevancia política: Consultas no
+   vinculantes, elecciones estudiantiles…
+   - Procesos que normalmente son presentados como /casos para
+     simulacro/
+Pero no una elección constitucional o un referendo/plebiscito
+vinculante.
+
+
 ** El motivo de esta presentación
  - Con esta presentación no (sólo) estamos buscando convencerlos de
    que el voto electrónico es dañino se vea como se vea, sino ponerlos
@@ -144,7 +163,6 @@ es equivalente a aceptar una dictadura.
    nuestro país, especialmente con la presión de en un año electoral
  - Con gusto platicamos al respecto en cualquier otro espacio donde
    puedan encontrarnos.
-
 # * Situación en Latinoamérica
 # ** Brasil
 #  - El primer país de la región en adoptar voto electrónico (1995)
@@ -189,32 +207,114 @@ es equivalente a aceptar una dictadura.
      [[http://www.eluniversal.com.mx/notas/631827.html][circunstancias poco claras]], con acusaciones de PAN, PANAL y PT de
      que podría resultar fraudulenta
  - Respecto al secreto del voto: En Coahuila,
-   /La urna (...) imprime un papel y ese comprobante tiene qué ser
+   /La urna (…) imprime un papel y ese comprobante tiene qué ser
    firmado por el elector y depositado en una urna convencional/
+   - ¡Esto vulnera al secreto electoral!
 
- [[http://www.iedf.org.mx/conv/congreso/sitio/index.php?cadena=mesa02.php][Citando a Carlos Arredondo Sibaja]], actual consejero del IEPC: Un
- sistema de votación electrónica implica que no se cuentan los
- comprobantes porque no hace falta. Se hacen tantas pruebas como sea
- necesario antes de la jornada electoral, para demostrar que la
- máquina no se equivoca y que el resultado siempre coincide
+** Coahuila
+  [[http://www.iedf.org.mx/conv/congreso/sitio/index.php?cadena=mesa02.php][Citando a Carlos Arredondo Sibaja]], actual consejero del IEPC
+  (Congreso /Democracia, Parcicipación ciudadana, Justicia
+  electoral/):
+
+  #+LaTeX: \vfill \begin{quotation} {\small
+  ``Un sistema de votación electrónica implica que no se cuentan los
+  comprobantes porque no hace falta. Se hacen tantas pruebas como sea
+  necesario antes de la jornada electoral, para demostrar que la
+  máquina no se equivoca y que el resultado siempre coincide''
+  #+LaTeX: } \end{quotation} \vfill
+
+  - ¿Recuerdan que el sistema electoral prevé la preservación de
+    /todos los documentos electorales/ en caso de impugnación?
 
 ** Distrito Federal
+ - Ejercicio ``pionero'' desde 2003, con equipo desarrollado /en casa/
+ - Se han empleado de forma no muy amplia
+   - Me faltan datos para poder darlos con precisión
+ - Para la elección local de 2012 se planteó la utilización de mil
+   urnas electrónicas
+ - La licitación la ganó la empresa /Pounce Consulting/
+ - Tras evaluar expertos (¿quién?) de la UNAM y el IPN las primeras 50
+   urnas entregadas, [[http://www.eluniversal.com.mx/ciudad/111073.html][detectaron 28 deficiencias]].
+ - La empresa incumplió con los plazos de entrega, y [[http://www.lajornadajalisco.com.mx/2012/04/13/se-cancela-proyecto-de-voto-electronico-en-el-df-por-diferencias-en-plazos-con-pounce/][el 13 de abril se
+   rescindió el contrato]].
 
 ** Jalisco
  - Primeros ejercicios: 2006; el municipio de Tuxcueca
- - Su legislación no exige (a diferencia de Coahuila, DF) la
+ - La legislación local no exige (a diferencia de Coahuila, DF) la
    transcripción manual de las actas
    - Las urnas se comunican con la cabecera electoral sobre redes
      celulares
+   - Esto permitió que los resultados se publicaran cuatro minutos
+     después de cerrar la última urna
+
+** Jalisco
+#+BEGIN_CENTER
+/Presume/ el consejero Carlos Alberto Martínez Maguey:
+#+END_CENTER
+#+LaTeX: \vfill \begin{quotation} {\small
+``Mientras estaban entregando las actas [a los representantes de los
+partidos] no había sido entregada la última acta cuando el resultado
+ya estaba en Internet. Es decir, a la mejor todavía un representante
+de casilla no había visto su acta cuando ya los ciudadanos lo podían
+consultar en Internet y desde luego eso baja mucho la presión sobre el
+sistema.''
+#+LaTeX: } \end{quotation} \vfill
+
+** Jalisco
+Modificaciones legislativas para que el documento legal de cada
+voto sea /el registro electrónico/ — El documento legal es la
+memoria Flash, no el rastro impreso. Citando nuevamente a Martínez
+Maguey:
+#+LaTeX:\vfill \begin{quotation} {\small
+En el caso de Jalisco nosotros determinamos que el recuento […] es tan
+sencillo como se bajan las bases de datos y *se vuelven a sumar y
+seguramente siempre darán el mismo resultado*.
+
+[…] existe la posibilidad de que […] se puedan contar los testigos de
+voto, *no es vinculante el resultado del testigo de voto*, pero siempre
+nos dará el mismo resultado que la base de datos.
+#+LaTeX: }\end{quotation} \vfill
+
+** Jalisco
  - Hubo un intento de usar urnas electrónicas para el 100% para las
    elecciones federales de 2012, pero se limitó a los distritos 1 y
    17, y el municipio de Gómez Farías (11% del padrón)
- - Hicieron las modificaciones legislativas para que el documento
-   legal de cada voto sea /el registro electrónico/ — El documento
-   legal es la memoria Flash, no el rastro impreso
- - En las experiencias de 2006, 2009 trabajaron con urnas Toshiba; en
-   2012 con Pounce Consulting
+ - La empresa que ganó la licitación en 2012 (/Pounce Consulting/, la
+   misma que en el DF) tardó casi mes y medio de más en entregar las
+   urnas
+ - Las urnas fueron entregadas con más de mes y medio de demora (3 de
+   marzo en vez de 15 de enero)
+ - Hay programados 5 /simulacros/ para asegurar la correcta operación
+   de las urnas
+   - …El resultado hasta el momento no es muy halagüeño
+
+** Jalisco
+ - Fechas de los simulacros: 25 de marzo, 15 de abril, 6 y 27 de mayo,
+   y 17 de junio
+ - La urna propuesta [[http://www.informador.com.mx/jalisco/2012/374636/6/ven-foco-rojo-en-falla-de-urna-electronica.htm][incumple con el voto secreto]], pues al caer cada
+   /testigo/ permite ver el sentido del voto del elector inmediato
+   anterior
+ - [[http://uniradioinforma.com/noticias/articulo115712.html][Las variaciones en el voltaje]] han afectado la operación de las
+   urnas: [[http://www.lajornadajalisco.com.mx/2012/05/15/todavia-es-viable-aplicar-el-voto-electronico-en-el-estado-figueroa/][Se han registrado impresiones descontroladas de votos]]
+ - Ha habido problemas de transmisión de entre el 20 y 40% de las
+   urnas, porque no hay buena cobertura de celular en la zona
+ - Hay reportes de [[http://www.lajornadajalisco.com.mx/2012/05/15/todavia-es-viable-aplicar-el-voto-electronico-en-el-estado-figueroa/][urnas que abren con información pre-cargada]]
+   - Urnas embarazadas… ¿intencionalmente?
+
+** Jalisco
+ - La presidenta de la Comisión de Asuntos Electorales del Congreso
+   del estado, [[http://www.informador.com.mx/primera/2012/374801/6/pide-diputada-que-iepc-este-listo-a-llevar-a-cabo-eleccion-tradicional.htm][Ana Bertha Guzmán Alatorre solicita que se re-evalúe el
+   uso de la urna electrónica]] y que todo esté listo para volver al
+   voto en papel si permanecen estos problemas tras el cuarto
+   simulacro
+ - Reconociendo tácitamente la posibilidad de que así sea, [[http://www.lajornadajalisco.com.mx/2012/05/15/todavia-es-viable-aplicar-el-voto-electronico-en-el-estado-figueroa/][Tomás
+   Figueroa Padilla, Consejero Presidente del IEPC, asegura que el
+   proyecto de la urna electrónica aún “es vigente y viable”]]
+ - Se tomará la decisión después del 5º simulacro (17 de junio)
 
 * Voto no-presencial
+** ¿Por qué el voto no-presencial?
+** Problemas fundamentales
+** Agravando la situación: [[http://votachilango.org.mx]]
 
 * ¿Qué sigue?
