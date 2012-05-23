@@ -13,16 +13,38 @@
 #+MACRO: BEAMERCOLORTHEME lily
 #+MACRO: BEAMERINSTITUTE Instituto de Investigaciones Económicas UNAM \\ Desarrollador del Proyecto Debian
 #+MACRO: BEAMERCONFURL http://noevoto.info
-#+DESCRIPTION: 
+#+DESCRIPTION:
 #+KEYWORDS: Voto electrónico, voto extranjero, urna electrónica, voto por Internet, actualidad
 #+LANGUAGE: es
 #+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 #+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
 #+EXPORT_SELECT_TAGS: export
 #+EXPORT_EXCLUDE_TAGS: noexport
-#+LINK_UP:  
-#+LINK_HOME: http://noevoto.info
+#+LINK_UP:
+#+LINK_HOME:
 #+COLUMNS: %40ITEM %10BEAME
+
+# Resumen:
+#
+# Una y otra vez, en diversos medios nos insisten en que toda
+# automatización es símbolo de progreso, es algo necesariamente
+# positivo. Mucha gente espera que nosotros, los tecnólogos, seamos los
+# primeros entusiastas de cualquier cambio tecnificador — Pero en
+# algunos casos, nuestra labor es llamar la atención a por qué algunos
+# procesos no deben pasar por la automatización.
+#
+# Un ejemplo de lo anterior es el del voto. Los países democráticos
+# tienen como el acto máximo y refundacional la renovación periódica de
+# la clase gobernante por medio del voto libre, secreto y
+# universal. Existe, claro, el reconocimiento a la importancia de este
+# hecho, y de la certeza que haya en el procesamiento de sus resultados.
+# El voto electrónico, sin embargo, pone en riesgo de unaa manera mucho
+# más fuerte que cualquiera otra implementada a escala humana.
+#
+# En esta exposición presentaré una exposición corta respecto a por qué
+# pensamos de esa manera, y delinearé el estado actual del voto
+# electrónico en diversos ámbitos de nuestro país, para poder evaluar
+# con mayor certeza lo que podamos hacer a futuro.
 
 * ¿Voto electrónico?
 ** ¿Quiénes somos?
@@ -36,6 +58,17 @@
    sea posible acerca del voto electrónico en México y en el mundo
    - Es muy dificil ser imparciales, pero es fundamental para tener el
      más básico rigor científico y credibilidad.
+
+** Participando en el proyecto
+Tenemos trabajo ya publicado y disponible en línea:
+ - [[http://novotoelectronico.info/][Sitio Web del proyecto]] (aunque registra bastante baja
+   actividad... ¡tenemos que ponernos las pilas!)
+ - [[http://evoto.iiec.unam.mx][Observatorio del voto electrónico]]
+Publicaciones:
+ - [[http://seminario.edusol.info/seco3/pdf/seco3_apend3.pdf][Apéndice 3]] del libro [[http://seminario.edusol.info/seco3][Construcción Colaborativa del Conocimiento]]
+ - [[http://sg.com.mx/content/view/919][Voto Electrónico: Analizando su conveniencia]], revista [[http://www.sg.com.mx][Software
+   Gurú]], febrero 2010
+
 
 ** ¿A qué nos referimos con voto electrónico?
  - La emisión del voto empleando /urnas electrónicas/
@@ -163,43 +196,14 @@ vinculante.
    nuestro país, especialmente con la presión de en un año electoral
  - Con gusto platicamos al respecto en cualquier otro espacio donde
    puedan encontrarnos.
-# * Situación en Latinoamérica
-# ** Brasil
-#  - El primer país de la región en adoptar voto electrónico (1995)
-#  - El voto se emite a través de Equipos de Registro Directo (DRE)
-#  - Cobertura del 100% en las elecciones federales, 128 millones de
-#    personas
-#  - La única implementación que ha convocado la seguridad de sus
-#    equipos a escrutinio
-#    - Sergio Freitas da Silva demostró (2009), con equipo casero, cómo
-#      romper el secreto del sentido de cada voto
-#    - En 2012 investigadores de la Universidad de Brasilia lograron
-#      obtener los resultados parciales de una urna
-# ** Argentina: Las Grutas 2007
-#  - Una de las primeras experiencias fue en Las Grutas, provincia de
-#    Río Negro, en 2007
-#    - Discrepancias entre padrones electoral y digital; muchos votantes
-#      válidos no pudieron votar: En mesas tradicionales hubo 70% de
-#      participación, contra 40% en las electrónicas
-#    - Por errores de manejo, una urna eliminó todos los registros en
-#      vez de guardarlos en la memoria externa
-#    - Aproximadamente el 10% de la población presentó un amparo
-#      colectivo, y la localidad no volverá a tener voto electrónico
-# ** Argentina: Salta 2009, 2013
-#  - En 2009/2010, la tercera parte de los ciudadanos de la provincia de
-#    Salta usaron urnas electrónicas
-#  - El gobierno provincial actual impulsa un plan para llevar al 100%
-#    para las elecciones del 2013
-#    - El nivel del debate es muy triste: Casi todos los
-#      cuestionamientos son respondidos argumentando que /no podemos
-#      oponernos a la modernización/
-#    - 
-# ** Venezuela
-# ** Colombia
-# ** Perú
-# ** Otros países
 
 * Urnas electrónicas
+** Urnas electrónicas
+#+BEGIN_CENTER
+#+ATTR_LaTeX: height=0.65\textheight
+[[./media/20090324-voto_electronico_bip_bip.jpg]]
+#+END_CENTER
+
 ** Coahuila
  - En 2005 hubo una implementación piloto con urnas diseñadas /en
    casa/; en 2008 votaron con urnas electrónicas 11 municipios.
@@ -313,8 +317,145 @@ nos dará el mismo resultado que la base de datos.
  - Se tomará la decisión después del 5º simulacro (17 de junio)
 
 * Voto no-presencial
+** Voto no-presencial
+#+BEGIN_CENTER
+#+ATTR_LaTeX: height=0.65\textheight
+[[./media/todo_bien.png]]
+#+END_CENTER
 ** ¿Por qué el voto no-presencial?
+ - Casi todos los países del mundo registran una importante población
+   flotante migratoria (inmigrados, emigrados, transmigrados locales)
+ - La migración puede originarse por muchos factores no voluntarios
+   - Migración económica
+   - Persecución política (o por grupos criminales)
+ - E incluso siendo voluntaria, el migrante sigue relacionado con su
+   entorno de origen
+   - Migrantes con plazo de retorno (p.ej. estudiantes de posgrado):
+     Importancia de mantener su vínculo
+
+** Las entidades expulsoras y el entorno legal
+ - La ley reconoce el derecho a todo mexicano exiliado a votar por el
+   Ejecutivo federal (aunque no por legisladores)
+ - Algunas entidades replican este reconocimiento, permitiendo el
+   voto por el Ejecutivo local, a pesar de que esto lleva a algunas
+   contradicciones
+   - Un /chilango/ con domicilio registrado en Europa puede votar por
+     el jefe de gobierno
+   - Pero uno con domicilio registrado en los municipios conurbados no
+ - Este es un caso bien documentado que /mantiene activamente/ los
+   lazos del migrante con su tierra
+   - Muchas veces permite un /empoderamiento/ y facilita al migrante
+     volver a casa (caso Zacatecas)
+
 ** Problemas fundamentales
-** Agravando la situación: [[http://votachilango.org.mx]]
+ - Desde la lógica electoral, el principio /una persona, un voto/ es
+   ampliamente conocida
+ - Pero cuando se permite el voto a distancia, ¿cómo puede asegurarse
+   que el voto refleja /la voluntad del individuo con ese derecho a
+   voto/?
+ - Varios países permiten el /voto postal/ incluso para la población
+   local — ¿Cómo se verifica la identidad del votante?
+   - Si voy a votar a una casilla con la credencial de elector de otra
+     persona y digo que voy /por encargo suyo/, sería impensable que
+     me permitan votar
+ - Votar sin asegurar la identidad y el anonimato en el /cuarto
+   obscuro/ abre la puerta a la compra de votos
+
+** La respuesta oficial: Vale más el derecho
+ - Al cuestionar a las autoridades electorales respecto a estos
+   puntos, obviamente, están ya conscientes de ello
+ - ¿La respuesta? Vale más permitir ejercer el derecho al voto que lo
+   que se pierde
+ - El impacto ha sido mínimo, a pesar de las grandes campañas
+   publicitarias. De un [[http://listanominal.ife.org.mx/ubicamodulo/PHP/est_eo.php?edo=9][padrón electoral del DF de 7,679,911
+   ciudadanos]] (2102-05-11):
+   - *2006*: 5,500 votos de /chilangos/ registrados en el extranjero:
+     *0.071% del total*
+   - *2012*: Un /gran éxito/: Se inscribieron 10,786 /chilangos/ para
+     ejercer su derecho: *0.139% del total* (falta ver cuántos lo
+     ejercen)
+
+** Agravando la situación: /[[http://votachilango.org.mx/][Vota Chilango]]/
+ - El voto postal es un /engorro/
+ - IEDF: [[http://www.votachilango.org.mx/pdf/ACU-017-12.pdf][¡Voto por Internet!]] (25-01-2012)
+   - El ciudadano elige al registrarse si quiere hacerlo postal o por
+     Internet. 4,192 eligieron votar por Internet.
+   - Autenticación por /contraseña de 16 caracteres enviada por correo
+     electrónico/; el sistema de contraseñas está abierto /desde el 15
+     de mayo/
+   - El 28 de junio abrirá el sistema para recibir votos
+ - …¿No suena a un reto de /capture la bandera/?
+
+** Acceso a la información de /Vota Chilango/
+Realizamos una solicitud de información al IEDF preguntando:
+1. ¿Qué empresa desarrolló este esquema?
+2. ¿Qué base tecnológica emplea? (hardware, software)
+3. ¿Qué procesos de auditoría se han realizado? ¿Qué resultados
+   obtuvieron?
+
+** Acceso a la información de /Vota Chilango/
+El 21 de mayo obtuvimos respuesta:
+1. *[[http://www.scytl.com/es/index.html][Scytl Secure Internet Voting]]* (España)
+2. *Información reservada por siete años*
+   - /el daño que puede producirse con la publicidad de la información
+     es mayor que el interés público de conocerla/
+3. *Telefónica Ingeniería de Seguridad de México S.A. de C.V.*; la
+   auditoría /está en aún proceso y no es posible dar resultado
+   alguno/
+   - Nombre muy genérico, no he podido identificar a qué empresa
+     específica se refiere
+   - ¡El sistema ya está en producción! ¿No hay aún resultados de
+     auditoría?
 
 * ¿Qué sigue?
+** Invitación a participar
+ - Siendo honestos, hasta hace muy poco, Octavio y yo sabemos que a
+   ambos nos interesa el tema pero no hemos trabajado de forma
+   coordinada
+ - ¿Les interesa el tema? ¡Únanse al grupo de trabajo!
+   - https://github.com/noevoto/noevoto
+   - ¿Eres de la Ciudad de México? Reuniones de trabajo presenciales
+     (¿quincenales?  ¿mensuales?)
+   - Nuestros espacios en línea
+ - Ampliar el debate, llevarlo a otros foros
+   - El tema entra en foros de muy distintas naturalezas
+   - Es importante hablarlo en foros técnicos, pero también en foros
+     políticos/sociales
+
+** La sociedad en general
+#+BEGIN_CENTER
+#+ATTR_LaTeX: height=0.8\textheight
+[[./media/viejitos_materos.jpg]]
+#+END_CENTER
+
+** La sociedad en general
+ - No podemos mantenernos en foros /endogámicos/
+ - Tenemos que empujar el tema a la conciencia de políticos /y de
+   comunicadores/
+ - No debemos excluir del debate a quien no tiene orientación
+   tecnológica
+ - …Y una vez pasado el 1º de julio, *no podemos olvidar el tema*.
+
+** ¡Gracias!
+
+#+BEGIN_CENTER
+Muchas gracias por su atención.
+#+LaTeX: \vfill
+¿Dudas?
+#+LaTeX: \vfill
+Gunnar Wolf — [[mailto:gwolf@gwolf.org][gwolf@gwolf.org]]
+
+Instituto de Investigaciones Económicas UNAM
+Desarrollador del Proyecto Debian
+
+#+LaTeX: \vfill {\scriptsize
+Presentación en [[http://gwolf.org/content/voto-electronico-en-2012]]
+#+LaTeX: \vfill
+#+LaTeX: \begin{columns}\begin{column}{0.2\textwidth}
+#+ATTR_LaTeX: height=1.5em
+[[./media/cc_by_sa.png]]
+#+LaTeX: \end{column}\begin{column}{0.7\textwidth}
+Este material se pone a su disposición bajo la [[http://creativecommons.org/licenses/by-sa/3.0/][Licencia Creative
+ Commons Atribución-CompartirIgual 3.0 Unported]].
+#+LaTeX: \end{column}\end{columns} }
+#+END_CENTER
