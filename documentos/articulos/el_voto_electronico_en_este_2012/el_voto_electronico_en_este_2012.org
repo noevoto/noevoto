@@ -1,19 +1,19 @@
 #+TITLE: México, el voto electrónico y el 2012
-#+AUTHOR: Gunnar Wolf
+#+AUTHOR: Gunnar Eyal Wolf Iszaevich — Instituto de Investigaciones Económicas, UNAM
 #+LANGUAGE: es
 #+EMAIL: gwolf@gwolf.org
 
-México es un país que, a lo largo de su historia, ha sufrido fraudes
-(y otros malos manejos) electorales, por medio de diferentes
-esquemas. Los mexicanos frecuentemente nos sabemos autoridades
-mundiales en este tema; la constante respecto a nuestras autoridades
-electorales ha sido más de duda y cuestionamiento que de
-confianza. Hubo un breve periodo, los últimos años de la década de los
-1990 y los primeros de los 2000, en que parecía que se consolidaba una
-institución sólida y confiable, pero las dudas –fundadas o no– que
-surgieron tras la elección del 2006 devolvió a las autoridades
-electorales la desconfianza tradicional que han sostenido a lo largo
-de buena parte de nuestra historia como nación independiente.
+México es un país que, a lo largo de su historia, ha sufrido fraudes y
+otros malos manejos electorales, por medio de diferentes esquemas. Los
+mexicanos frecuentemente nos sentimos autoridades mundiales en este
+tema; la constante respecto a nuestras autoridades electorales ha sido
+más de duda y cuestionamiento que de confianza. Hubo un breve periodo,
+los últimos años de la década de los 1990 y los primeros de los 2000,
+en que parecía que se consolidaba una institución sólida y confiable,
+pero las dudas –fundadas o no– que surgieron tras la elección del 2006
+devolvieron a las autoridades electorales a los niveles desconfianza
+tradicional que han sostenido a lo largo de buena parte de nuestra
+historia como nación independiente.
 
 Y un reclamo muchas veces escuchado es que, dado que es imposible
 confiar en los individuos, corruptibles por naturaleza, la
@@ -58,11 +58,11 @@ que debe hacer.
 Para ilustrarlo: Pocas computadoras en el mundo corren hoy sin
 antivirus. Estos programas se hicieron necesarios dadas las grandes
 deficiencias de diseño que tuvo el sistema operativo más popular del
-mundo ante la necesidad de estar conectados a una red hostil. Y hasta
-corriendo los sistemas más seguros, es necesario estar al tanto de
-todas las actualizaciones y notas de seguridad si queremos confiar en
-que nuestra computadora responde únicamente a nuestras órdenes, y lo
-hace de forma confiable.
+mundo ante la realidad de estar hoy permanentemente conectados a una
+red hostil. Y hasta corriendo los sistemas más seguros, es necesario
+estar al tanto de todas las actualizaciones y notas de seguridad si
+queremos confiar en que nuestra computadora responde únicamente a
+nuestras órdenes, y lo hace de forma confiable.
 
 Incluso ante el mismo programador, como proféticamente lo demostró en
 1984 Ken Thompson al aceptar el premio Turing (reconocido en nuestro
@@ -117,34 +117,41 @@ simulacros.
 posibles y sin ninguna intencionalidad maligna, las urnas funcionen
 como dicen funcionar. En caso de haber algún componente malicioso en
 las urnas, es del total interés de quien lo haya sembrado que /no/
-cause ningún comportamiento inusual. Un simulacro busca demostrar que,
-bajo condiciones controladas, la elección no colapsa. Y lo peor del
-caso es que en este caso, 3 de los 4 simulacros que habían ocurrido
-hasta la fecha en que este documento fue escrito registraron fallos
-diversos que hacían –ya a menos de dos meses del proceso electoral–
-replantearse si se emplearían o no[fn:jalisco]. ¿Un simulacro exitoso
-aseguraría que no habrá fallas el día de la elección? ¡De ninguna
-manera!
+cause ningún comportamiento inusual (para no perder su agente
+encubierto sin obtener la ventaja que le llevó a introducirlo en
+primer lugar). Un simulacro busca demostrar que, bajo condiciones
+controladas, la elección no colapsa. Y lo peor del caso es que en este
+caso, 3 de los 4 simulacros que habían ocurrido hasta la fecha en que
+este documento fue escrito registraron fallos diversos que hacían –ya
+a menos de dos meses del proceso electoral– replantearse si se
+emplearían o no[fn:jalisco]. En el Distrito Federal, la implementación
+de urnas electrónicas licitadas a la misma empresa que las provee en
+Jalisco fue rescindida, en parte, por habérsele encontrado 28
+fallas[fn:iedf].
+
+¿Un simulacro exitoso aseguraría que no habrá fallas el día de la
+elección? ¡De ninguna manera!
 
 * Conclusión
 
 Por restricciones de espacio, en este texto apenas me ha sido posible
 arañar algunos de los puntos más notorios del voto electrónico, y de
-por qué sencillamente, comprendiendo puntos básicos de seguridad en
-cómputo y estando conscientes de la gran importancia que tiene el voto
-(con sus características base: La confidencialidad del voto de cada
-ciudadano, el peso de todos los votos por igual y la completa
-auditabilidad del proceso) dentro de un sistema democrático
-representativo como el que aspiramos tener en este país, resulta
-imposible confiar en que las urna electrónica resuelva nuestros
-problemas de confianza.
+por qué, comprendiendo puntos básicos de seguridad en cómputo y
+estando conscientes de la gran importancia que tiene el voto dentro de
+un sistema democrático representativo como el que aspiramos tener en
+nuestro país, resulta imposible confiar en que las urna electrónica
+resuelva nuestros problemas de confianza — Muy por el contrario.
 
 Se ha hablado de emplear al voto electrónico para resolver otros
 problemas, como el del costo o la agilidad de la transmisión de
 resultados. Estos puntos pueden desmenuzarse y descartarse con todavía
 mayor facilidad que el aquí presentado.
 
- *Aquí me falta encontrar bien cómo cerrar el rollo :-P*
+Si este breve artículo resultó de su interés, les invito a leer el
+artículo publicado a fines del 2011[fn:seco3], así como el abundante
+material que al respecto ha generado la /Fundación Vía Libre/
+(Argentina)[fn:vialibre], destacando el libro /Voto electrónico: los
+riesgos de una ilusión/, publicado en 2009[fn:riesgosdeunailusion].
 
 [fn:thompson] /Reflections on Trusting Trust/, Ken Thompson,
   Communications of the ACM, Vol. 27, No. 8, August 1984, pp. 761-763
@@ -161,3 +168,18 @@ mayor facilidad que el aquí presentado.
   elección tradicional/, Zaira Ramírez, El Informador, 8 de mayo de
   2012;
   http://www.informador.com.mx/primera/2012/374801/6/pide-diputada-que-iepc-este-listo-a-llevar-a-cabo-eleccion-tradicional.htm
+
+[fn:iedf] /Urnas electrónicas tienen 28 fallas: IEDF/, Jonathan
+  Villanueva, El Universal, 13 de abril del 2012;
+  http://www.eluniversal.com.mx/ciudad/111073.html
+
+[fn:seco3] /Voto electrónico: ¿Quién tiene realmente la decisión?/,
+  Construcción Colaborativa del Conocimiento (IIEc-UNAM), Gunnar
+  Wolf, 2011; http://seminario.edusol.info/seco3/pdf/seco3_apend3.pdf
+
+[fn:vialibre] /Fundación Vía Libre — Voto electrónico/
+  http://www.votoelectronico.org.ar/
+
+[fn:riesgosdeunailusion] /Voto electrónico: los riesgos de una
+  ilusión/, Fundación Via Libre, 2009;
+  http://www.vialibre.org.ar/wp-content/uploads/2009/03/evoto.pdf
