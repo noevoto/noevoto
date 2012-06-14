@@ -1,0 +1,185 @@
+#+TITLE: México, el voto electrónico y el 2012
+#+AUTHOR: Gunnar Eyal Wolf Iszaevich — Instituto de Investigaciones Económicas, UNAM
+#+LANGUAGE: es
+#+EMAIL: gwolf@gwolf.org
+
+México es un país que, a lo largo de su historia, ha sufrido fraudes y
+otros malos manejos electorales, por medio de diferentes esquemas. Los
+mexicanos frecuentemente nos sentimos autoridades mundiales en este
+tema; la constante respecto a nuestras autoridades electorales ha sido
+más de duda y cuestionamiento que de confianza. Hubo un breve periodo,
+los últimos años de la década de los 1990 y los primeros de los 2000,
+en que parecía que se consolidaba una institución sólida y confiable,
+pero las dudas –fundadas o no– que surgieron tras la elección del 2006
+devolvieron a las autoridades electorales a los niveles desconfianza
+tradicional que han sostenido a lo largo de buena parte de nuestra
+historia como nación independiente.
+
+Y un reclamo muchas veces escuchado es que, dado que es imposible
+confiar en los individuos, corruptibles por naturaleza, la
+responsabilidad del escrutinio de los votos debería recaer en un
+sistema computarizado, siempre limpio, eficiente y honesto.
+
+* ¿Qué hace una urna electrónica?
+
+Las urnas electrónicas se han propuesto desde hace mucho tiempo ya, y
+muchos países (o jurisdicciones menores) las han adoptado.
+
+En el corazón de todas las propuestas de voto electrónico está la
+/urna electrónica/. Esta es básicamente una computadora, con una
+interfaz usuario limitada para sólo permitir un conjunto específico de
+operaciones, construida dentro de una caja o maletín que dificulten el
+acceso a cualquiera de sus componentes fuera del expresamente
+autorizado, y encargado de recibir cada uno de los votos,
+convirtiéndolos en /información almacenada de forma electrónica/. Por
+medio de un procedimiento previamente diseñado, las autoridades
+electorales pueden indicarle que deje de recibir votos, y entregue los
+totales que cada una de las opciones recibió.
+
+Las primeras urnas electrónicas que cumplen con esta definición, las
+llamadas /DRE voting machines/ (/Direct-Recording Electronic/,
+máquinas de voto electrónico de grabación directa) fueron puestas en
+práctica ampliamente hacia 1996, y al día de hoy, la totalidad de
+votantes de países tan grandes como la India y Brasil, y amplios
+segmentos de otros países como los Estados Unidos, votan de esta
+manera.
+
+* La confianza y los aguafiestas
+
+No perdamos de vista que si una cosa caracteriza al gremio de los
+desarrolladores de software es la cantidad de errores (tanto
+accidentales como, lo que es mucho más peligroso, inducidos) que
+pueden aparecer en un programa. El mero hecho de que exista un área de
+especialización tan importante como la seguridad informática lo hace
+patente: La complejidad hasta de los sistemas más sencillos hace
+imposible asegurar /con toda certeza/ que una computadora haga lo que
+que debe hacer.
+
+Para ilustrarlo: Pocas computadoras en el mundo corren hoy sin
+antivirus. Estos programas se hicieron necesarios dadas las grandes
+deficiencias de diseño que tuvo el sistema operativo más popular del
+mundo ante la realidad de estar hoy permanentemente conectados a una
+red hostil. Y hasta corriendo los sistemas más seguros, es necesario
+estar al tanto de todas las actualizaciones y notas de seguridad si
+queremos confiar en que nuestra computadora responde únicamente a
+nuestras órdenes, y lo hace de forma confiable.
+
+Incluso ante el mismo programador, como proféticamente lo demostró en
+1984 Ken Thompson al aceptar el premio Turing (reconocido en nuestro
+campo como el /premio Nóbel de la Ciencia de la Computación/) con el
+artículo /Reflexiones acerca de la confianza en la confianza/[fn:thompson],
+un programador siempre confía ciegamente en un conjunto de programas
+sobre de los cuales construye (compilador, ligador, sistema
+operativo), y por tanto, un atacante determinado sólo tiene que /bajar
+lo suficiente/ para plantar un troyano.
+
+* Desconfiando del DRE... Y de lo demás
+
+Expertos en seguridad informática no tardaron en señalar diversos
+expertos diversas fallas elementales en el voto DRE; el principal, el
+de la confiabilidad. Si los votos /únicamente son grabados en la
+memoria electrónica/, ¿cómo puede asegurarse que reflejen fielmente el
+sentido del voto de cada individuo? O puesto de otro modo, ¿cómo
+podría asegurarse un recuento de los votos en caso de ser nacesario?
+
+La respuesta no se hizo esperar: A cada voto emitido, sería impreso un
+comprobante o /testigo del voto/, mismo que serviría para contar los
+votos manualmente en caso de impugnación. Este esquema es conocido
+como /VVPAT/ (/Voter-verified paper audit trail/, /Rastro auditable en
+papel verificado por el votante/).
+
+Esto, si bien ha sido aceptado por numerosos sistemas electorales en
+el mundo, sigue sin ser suficiente. Como sugiere Federico
+Heinz[fn:heinz], hay varios esquemas que podrían /reventar/ una
+elección con este planteamiento. Por ejemplo, si las personas
+interesadas en sabotear una urna, tras votar, reclaman ante la mesa de
+autoridades indicando que la urna registró un voto contrario a lo que
+le solicitaron, podrían llevar a que se anulen /todos los sufragios/
+emitidos por dicha urna, dado que son potencialmente ilegítimos.
+
+Por otro lado, podría presentarse nuevamente el escenario que se dió
+en la ciudad de Nueva York en 2010[fn:bronx]: Al calentarse las urnas
+electrónicas, /emitían votos aleatorios por error/. Se estima que esto
+puede haber invalidado hasta el 30% de los votos efectivos de algunas
+mesas.
+
+* La futilidad de los simulacros
+
+Este 2012, el principal proyecto de implementación de voto electrónico
+en México será en las elecciones locales del Estado de Jalisco. Uno de
+los muchos puntos preocupantes de este ejercicio es que, como pruebas
+previas a la instalación de más de mil urnas electrónicas en dos
+distritos electorales y un municipio, las únicas pruebas de
+confiabilidad disponible para ser analizada públicamente son cinco
+simulacros.
+
+¿Qué puede comprobarse en un simulacro? Que, en el mejor de los mundos
+posibles y sin ninguna intencionalidad maligna, las urnas funcionen
+como dicen funcionar. En caso de haber algún componente malicioso en
+las urnas, es del total interés de quien lo haya sembrado que /no/
+cause ningún comportamiento inusual (para no perder su agente
+encubierto sin obtener la ventaja que le llevó a introducirlo en
+primer lugar). Un simulacro busca demostrar que, bajo condiciones
+controladas, la elección no colapsa. Y lo peor del caso es que en este
+caso, 3 de los 4 simulacros que habían ocurrido hasta la fecha en que
+este documento fue escrito registraron fallos diversos que hacían –ya
+a menos de dos meses del proceso electoral– replantearse si se
+emplearían o no[fn:jalisco]. En el Distrito Federal, la implementación
+de urnas electrónicas licitadas a la misma empresa que las provee en
+Jalisco fue rescindida, en parte, por habérsele encontrado 28
+fallas[fn:iedf].
+
+¿Un simulacro exitoso aseguraría que no habrá fallas el día de la
+elección? ¡De ninguna manera!
+
+* Conclusión
+
+Por restricciones de espacio, en este texto apenas me ha sido posible
+arañar algunos de los puntos más notorios del voto electrónico, y de
+por qué, comprendiendo puntos básicos de seguridad en cómputo y
+estando conscientes de la gran importancia que tiene el voto dentro de
+un sistema democrático representativo como el que aspiramos tener en
+nuestro país, resulta imposible confiar en que las urna electrónica
+resuelva nuestros problemas de confianza — Muy por el contrario.
+
+Se ha hablado de emplear al voto electrónico para resolver otros
+problemas, como el del costo o la agilidad de la transmisión de
+resultados. Estos puntos pueden desmenuzarse y descartarse con todavía
+mayor facilidad que el aquí presentado.
+
+Si este breve artículo resultó de su interés, les invito a leer el
+artículo publicado a fines del 2011[fn:seco3], así como el abundante
+material que al respecto ha generado la /Fundación Vía Libre/
+(Argentina)[fn:vialibre], destacando el libro /Voto electrónico: los
+riesgos de una ilusión/, publicado en 2009[fn:riesgosdeunailusion].
+
+[fn:thompson] /Reflections on Trusting Trust/, Ken Thompson,
+  Communications of the ACM, Vol. 27, No. 8, August 1984, pp. 761-763
+
+[fn:heinz] /Urnas electrónicas: con imprimir el voto no alcanza/, Federico
+  Heinz, Fundación Vía Libre, septiembre de 2010;
+  http://www.vialibre.org.ar/2010/09/12/urnas-electronicas-con-imprimir-el-voto-no-alcanza/
+
+[fn:bronx] /Machine Casts Phantom Votes in the Bronx, Invalidating Real
+  Ones: Report/, The Empire, mayo de 2012;
+  http://www.wnyc.org/blogs/empire/2012/may/09/reports-find-machine-errors-led-uncounted-votes-2010/
+
+[fn:jalisco] /Pide diputada que IEPC esté listo a llevar a cabo
+  elección tradicional/, Zaira Ramírez, El Informador, 8 de mayo de
+  2012;
+  http://www.informador.com.mx/primera/2012/374801/6/pide-diputada-que-iepc-este-listo-a-llevar-a-cabo-eleccion-tradicional.htm
+
+[fn:iedf] /Urnas electrónicas tienen 28 fallas: IEDF/, Jonathan
+  Villanueva, El Universal, 13 de abril del 2012;
+  http://www.eluniversal.com.mx/ciudad/111073.html
+
+[fn:seco3] /Voto electrónico: ¿Quién tiene realmente la decisión?/,
+  Construcción Colaborativa del Conocimiento (IIEc-UNAM), Gunnar
+  Wolf, 2011; http://seminario.edusol.info/seco3/pdf/seco3_apend3.pdf
+
+[fn:vialibre] /Fundación Vía Libre — Voto electrónico/
+  http://www.votoelectronico.org.ar/
+
+[fn:riesgosdeunailusion] /Voto electrónico: los riesgos de una
+  ilusión/, Fundación Via Libre, 2009;
+  http://www.vialibre.org.ar/wp-content/uploads/2009/03/evoto.pdf
