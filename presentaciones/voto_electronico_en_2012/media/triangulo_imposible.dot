@@ -1,0 +1,5 @@
+graph {
+	secreto -- confiable
+	secreto -- electrónico
+	confiable -- electrónico
+}

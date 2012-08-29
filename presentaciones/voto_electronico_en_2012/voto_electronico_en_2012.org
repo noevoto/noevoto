@@ -1,17 +1,19 @@
 #+TITLE: El voto electrónico en 2012: ¿Cómo vamos?
 #+AUTHOR: Gunnar Wolf
 #+EMAIL: gwolf@gwolf.org
-#+DATE: Congreso Internacional de Software Libre (CISOL) 2012
+#+DATE: Congreso Mexicano de la Sociedad de la Información y Conocimiento Libre (COSIT) 2012
+###+DATE: Congreso Internacional de Software Libre (CISOL) 2012
 #+startup: beamer
 #+LaTeX_CLASS: beamer
 #+LaTeX_CLASS_OPTIONS: [bigger]
+#+LaTeX_HEADER: \hypersetup{colorlinks=true}
 #+BEAMER_HEADER_EXTRA: \pgfdeclareimage[height=2cm]{media/noevoto.png}{media/noevoto.png}\logo{\pgfuseimage{media/noevoto.png}}
 #+BEAMER_HEADER_EXTRA: \AtBeginSection[]{ \begin{frame}<beamer> \frametitle{Índice} \tableofcontents[currentsection] \end{frame} }
 #+BEAMER_FRAME_LEVEL: 2
 #+MACRO: BEAMERMODE presentation
 #+MACRO: BEAMERTHEME Darmstadt
 #+MACRO: BEAMERCOLORTHEME lily
-#+MACRO: BEAMERINSTITUTE Instituto de Investigaciones Económicas UNAM \\ Desarrollador del Proyecto Debian
+#+MACRO: BEAMERINSTITUTE Instituto de Investigaciones Económicas UNAM \\ Desarrollador del Proyecto Debian \vskip 1em \url{http://gwolf.org/content/voto-electronico-en-2012}
 #+MACRO: BEAMERCONFURL http://noevoto.info
 #+DESCRIPTION:
 #+KEYWORDS: Voto electrónico, voto extranjero, urna electrónica, voto por Internet, actualidad
@@ -22,7 +24,7 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+LINK_UP:
 #+LINK_HOME:
-#+COLUMNS: %40ITEM %10BEAME
+#+COLUMNS: %40ITEM %10BEAMER
 
 # Resumen:
 #
@@ -47,6 +49,19 @@
 # con mayor certeza lo que podamos hacer a futuro.
 
 * ¿Voto electrónico?
+
+** ¿MÁS?
+#+begin_center
+\Huge ¿Más acerca de las elecciones?
+#+end_center
+
+Sí, estamos cansados. Sí, estamos /hartos/ de la política electoral,
+de los partidos, de todo eso.
+\vfill
+
+Pero si dejamos el tema de lado sólo porque ya pasó el periodo
+electoral, los errores de cada proceso no dejarán de multiplicarse.
+
 ** ¿Quiénes somos?
  - El grupo [[http://noevoto.info/][noevoto.info]] está formado por activistas del Software
    Libre, la seguridad informática, y el involucramiento político en
@@ -68,6 +83,7 @@ Publicaciones:
  - [[http://seminario.edusol.info/seco3/pdf/seco3_apend3.pdf][Apéndice 3]] del libro [[http://seminario.edusol.info/seco3][Construcción Colaborativa del Conocimiento]]
  - [[http://sg.com.mx/content/view/919][Voto Electrónico: Analizando su conveniencia]], revista [[http://www.sg.com.mx][Software
    Gurú]], febrero 2010
+ - [[http://sg.com.mx/revista/voto-electr%C3%B3nico-2012][Voto electrónico, 2012]], revista [[http://www.sg.com.mx][Software Gurú]], agosto 2012
 
 
 ** ¿A qué nos referimos con voto electrónico?
@@ -122,7 +138,7 @@ mínimas aceptables.
  - Un rastro impreso puede permitir un recuento válido… Si es correcto
    y la urna no produce votos espontáneamente
 
-   (ver [[http://www.wnyc.org/blogs/empire/2012/may/09/reports-find-machine-errors-led-uncounted-votes-2010/][``Urnas que se calientan en el Bronx'', NYC, 2012]])
+   (ver [[http://evoto.iiec.unam.mx/node/254][``Urnas que se calientan en el Bronx'', NYC, 2012]])
  - No es difícil imaginar esquemas ingenuos de /ingeniería social/ que
    dan a un individuo la capacidad de no sólo invalidar un par de
    votos /sino que el resultado de una urna completa/
@@ -160,42 +176,33 @@ mínimas aceptables.
 ** Resumiendo: Características generales
 #+BEGIN_CENTER
 Un sistema de contabilidad de votos puede brindarnos 2 de 3:
-#+END_CENTER
-- Secreto
-- Confiable
-- Electrónico
-#+BEGIN_CENTER
+
+#+ATTR_LaTeX: height=0.5\textheight
+[[./media/triangulo_imposible.png]]
+
 ¿Asegurar los tres? Es fundamentalmente imposible.
-#+LaTeX: \vfill
+#+LaTeX: \vskip 1em
 …Y obviar la importancia de la confiabilidad o de la secrecía del voto
 es equivalente a aceptar una dictadura.
 #+END_CENTER
 
 ** ¿Cuándo sí, cuándo no, por qué?
 Hay votos de diferente naturaleza, y una de las estrategias es
-/confundirnos/ con los inocuos para que aceptemos a los peligrosos. El
-voto electrónico puede aceptarse:
+/confundirnos/ con los inocuos para que aceptemos a los peligrosos.
+Puede aceptarse:
+
  - En el recinto legislativo
    - Voto público: No requiere secreto
- - Un grupo con cohesión, confianza interna
-   - La confianza no la brinda el sistema
+   - Ojo: [[http://evoto.iiec.unam.mx/node/452][Multa y condena al exgobernador de Brasilia]] (2012) por
+     romper el secreto del voto legislativo
+ - Un grupo con cohesión, confianza interna.
  - Un proceso sin /gran/ (?) relevancia política: Consultas no
    vinculantes, elecciones estudiantiles…
-   - Procesos que normalmente son presentados como /casos para
-     simulacro/
-Pero no una elección constitucional o un referendo/plebiscito
-vinculante.
+   - Procesos que se usan como /casos para simulacro/
 
-
-** El motivo de esta presentación
- - Con esta presentación no (sólo) estamos buscando convencerlos de
-   que el voto electrónico es dañino se vea como se vea, sino ponerlos
-   al día de la situación de su adopción y las luchas que estamos
-   dando al respecto
- - Es importante estar conscientes de cómo evoluciona este tema en
-   nuestro país, especialmente con la presión de en un año electoral
- - Con gusto platicamos al respecto en cualquier otro espacio donde
-   puedan encontrarnos.
+#+begin_center
+No una *elección constitucional* o un *referendo/plebiscito*.
+#+end_center
 
 * Urnas electrónicas
 ** Urnas electrónicas
@@ -208,7 +215,7 @@ vinculante.
  - En 2005 hubo una implementación piloto con urnas diseñadas /en
    casa/; en 2008 votaron con urnas electrónicas 11 municipios.
    - Pero se descartó para el municipio de San Buenaventura en
-     [[http://www.eluniversal.com.mx/notas/631827.html][circunstancias poco claras]], con acusaciones de PAN, PANAL y PT de
+     [[http://evoto.iiec.unam.mx/node/281][circunstancias poco claras]], con acusaciones de PAN, PANAL y PT de
      que podría resultar fraudulenta
  - Respecto al secreto del voto: En Coahuila,
    /La urna (…) imprime un papel y ese comprobante tiene qué ser
@@ -216,9 +223,8 @@ vinculante.
    - ¡Esto vulnera al secreto electoral!
 
 ** Coahuila
-  [[http://www.iedf.org.mx/conv/congreso/sitio/index.php?cadena=mesa02.php][Citando a Carlos Arredondo Sibaja]], actual consejero del IEPC
-  (Congreso /Democracia, Parcicipación ciudadana, Justicia
-  electoral/):
+  [[http://evoto.iiec.unam.mx/node/282][Citando a Carlos Arredondo Sibaja]], consejero del IEPC (Congreso
+  /Democracia, Parcicipación ciudadana, Justicia electoral/):
 
   #+LaTeX: \vfill \begin{quotation} {\small
   ``Un sistema de votación electrónica implica que no se cuentan los
@@ -238,9 +244,9 @@ vinculante.
    urnas electrónicas
  - La licitación la ganó la empresa /Pounce Consulting/
  - Tras evaluar expertos (¿quién?) de la UNAM y el IPN las primeras 50
-   urnas entregadas, [[http://www.eluniversal.com.mx/ciudad/111073.html][detectaron 28 deficiencias]].
- - La empresa incumplió con los plazos de entrega, y [[http://www.lajornadajalisco.com.mx/2012/04/13/se-cancela-proyecto-de-voto-electronico-en-el-df-por-diferencias-en-plazos-con-pounce/][el 13 de abril se
-   rescindió el contrato]].
+   urnas entregadas, [[http://evoto.iiec.unam.mx/node/195][detectaron 28 deficiencias]].
+ - La empresa incumplió con los plazos de entrega, y [[http://evoto.iiec.unam.mx/node/196][el 13 de abril se
+   rescindió el contrato]]
 
 ** Jalisco
  - Primeros ejercicios: 2006; el municipio de Tuxcueca
@@ -252,69 +258,100 @@ vinculante.
      después de cerrar la última urna
 
 ** Jalisco
-#+BEGIN_CENTER
-/Presume/ el consejero Carlos Alberto Martínez Maguey:
-#+END_CENTER
-#+LaTeX: \vfill \begin{quotation} {\small
+En el congreso /Experiencias del Proceso Electoral 2009-II, Votación
+Electrónica en México/, [[http://evoto.iiec.unam.mx/node/282][Presume el consejero Carlos Alberto Martínez
+Maguey]]:
+
+#+begin_quote
 ``Mientras estaban entregando las actas [a los representantes de los
 partidos] no había sido entregada la última acta cuando el resultado
-ya estaba en Internet. Es decir, a la mejor todavía un representante
-de casilla no había visto su acta cuando ya los ciudadanos lo podían
-consultar en Internet y desde luego eso baja mucho la presión sobre el
-sistema.''
-#+LaTeX: } \end{quotation} \vfill
+ya estaba en Internet. Es decir, *a la mejor todavía un representante
+de casilla no había visto su acta* cuando ya los ciudadanos *lo podían
+consultar en Internet* y desde luego eso baja mucho la presión sobre
+el sistema.''
+#+end_quote
+
+#+begin_center
+*¿Y el rol de la ciudadanía?*
+#+end_center
 
 ** Jalisco
 Modificaciones legislativas para que el documento legal de cada
 voto sea /el registro electrónico/ — El documento legal es la
 memoria Flash, no el rastro impreso. Citando nuevamente a Martínez
 Maguey:
-#+LaTeX:\vfill \begin{quotation} {\small
+
+#+begin_quote
 En el caso de Jalisco nosotros determinamos que el recuento […] es tan
-sencillo como se bajan las bases de datos y *se vuelven a sumar y
+sencillo como: Se bajan las bases de datos y *se vuelven a sumar y
 seguramente siempre darán el mismo resultado*.
 
 […] existe la posibilidad de que […] se puedan contar los testigos de
 voto, *no es vinculante el resultado del testigo de voto*, pero siempre
 nos dará el mismo resultado que la base de datos.
-#+LaTeX: }\end{quotation} \vfill
+#+end_quote
 
 ** Jalisco
  - Hubo un intento de usar urnas electrónicas para el 100% para las
-   elecciones federales de 2012, pero se limitó a los distritos 1 y
-   17, y el municipio de Gómez Farías (11% del padrón)
+   elecciones federales de 2012, pero se logró limitar a los distritos
+   1 y 17, y el municipio de Gómez Farías (11% del padrón)
  - La empresa que ganó la licitación en 2012 (/Pounce Consulting/, la
    misma que en el DF) tardó casi mes y medio de más en entregar las
    urnas
  - Las urnas fueron entregadas con más de mes y medio de demora (3 de
    marzo en vez de 15 de enero)
- - Hay programados 5 /simulacros/ para asegurar la correcta operación
+ - Programaron 5 /simulacros/ para asegurar la correcta operación
    de las urnas
-   - …El resultado hasta el momento no es muy halagüeño
 
 ** Jalisco
  - Fechas de los simulacros: 25 de marzo, 15 de abril, 6 y 27 de mayo,
    y 17 de junio
- - La urna propuesta [[http://www.informador.com.mx/jalisco/2012/374636/6/ven-foco-rojo-en-falla-de-urna-electronica.htm][incumple con el voto secreto]], pues al caer cada
-   /testigo/ permite ver el sentido del voto del elector inmediato
-   anterior
- - [[http://uniradioinforma.com/noticias/articulo115712.html][Las variaciones en el voltaje]] han afectado la operación de las
-   urnas: [[http://www.lajornadajalisco.com.mx/2012/05/15/todavia-es-viable-aplicar-el-voto-electronico-en-el-estado-figueroa/][Se han registrado impresiones descontroladas de votos]]
+ - La urna propuesta [[http://evoto.iiec.unam.mx/node/249][incumplía con el voto secreto]], pues al caer cada
+   /testigo/ permitía ver el sentido del voto del elector inmediato
+   anterior — Fue corregido.
+ - [[http://evoto.iiec.unam.mx/node/257][Las variaciones en el voltaje]] han afectado la operación de las
+   urnas: [[http://evoto.iiec.unam.mx/node/268][Se han registrado impresiones descontroladas de votos]]
  - Ha habido problemas de transmisión de entre el 20 y 40% de las
    urnas, porque no hay buena cobertura de celular en la zona
- - Hay reportes de [[http://www.lajornadajalisco.com.mx/2012/05/15/todavia-es-viable-aplicar-el-voto-electronico-en-el-estado-figueroa/][urnas que abren con información pre-cargada]]
+ - Hay reportes de [[http://evoto.iiec.unam.mx/node/268][urnas que abren con sufragios emitidos previamente]]
    - Urnas embarazadas… ¿intencionalmente?
 
 ** Jalisco
  - La presidenta de la Comisión de Asuntos Electorales del Congreso
-   del estado, [[http://www.informador.com.mx/primera/2012/374801/6/pide-diputada-que-iepc-este-listo-a-llevar-a-cabo-eleccion-tradicional.htm][Ana Bertha Guzmán Alatorre solicita que se re-evalúe el
+   del estado, [[http://evoto.iiec.unam.mx/node/258][Ana Bertha Guzmán Alatorre solicita que se re-evalúe el
    uso de la urna electrónica]] y que todo esté listo para volver al
    voto en papel si permanecen estos problemas tras el cuarto
    simulacro
- - Reconociendo tácitamente la posibilidad de que así sea, [[http://www.lajornadajalisco.com.mx/2012/05/15/todavia-es-viable-aplicar-el-voto-electronico-en-el-estado-figueroa/][Tomás
+ - Reconociendo tácitamente la posibilidad de que así sea, [[http://evoto.iiec.unam.mx/node/268][Tomás
    Figueroa Padilla, Consejero Presidente del IEPC, asegura que el
-   proyecto de la urna electrónica aún “es vigente y viable”]]
- - Se tomará la decisión después del 5º simulacro (17 de junio)
+   proyecto aún es ``vigente y viable'']].
+
+** Jalisco — El 1° de julio
+ - Pese a todo esto, [[http://evoto.iiec.unam.mx/node/354][el quinto simulacro fue declarado ``un éxito'']] y
+   las urnas electrónicas se utilizaron.
+ - El 10% de las urnas estuvo en zonas sin cobertura celular, y
+   funcionaron sólo para el cómputo, pero no para la comunicación
+   - El ~90% restante transmitió sus datos por red GSM
+ - El 1° de julio [[http://evoto.iiec.unam.mx/node/388][se reportaron discrepancias en el número de votantes]]
+   entre IEPC e IFE tanto en el distrito 1 como el 17
+   - Explica el IEPC que el IFE colocó más /casillas especiales/ que
+     éste
+
+#+begin_center
+Lo notorio es que, contrastando con la abundante información en mayo y
+junio, en julio y agosto no hemos visto más notas que esta.
+#+end_center
+
+** Ejercicio /no vinculante/ del IFE
+ - El 1° de julio, el IFE colocó 1200 urnas electrónicas a nivel
+   nacional (4 por cada distrito electoral) para /encuesta/
+   - Relativas a la percepción ciudadana sobre el IFE, no relacionadas
+     con la votación
+ - Las urnas son [[http://evoto.iiec.unam.mx/node/364][desarrollo del CINVESTAV]], con costo de unos MX$11,000
+   cada una
+   - Estiman que al construirlas en mayor volumen, [[http://evoto.iiec.unam.mx/node/328][su precio podría
+     bajar hasta 40%]]
+ - No hay mucha más información respecto al ejercicio
 
 * Voto no-presencial
 ** Voto no-presencial
@@ -324,7 +361,7 @@ nos dará el mismo resultado que la base de datos.
 #+END_CENTER
 ** ¿Por qué el voto no-presencial?
  - Casi todos los países del mundo registran una importante población
-   flotante migratoria (inmigrados, emigrados, transmigrados locales)
+   flotante migratoria (inmigrados, emigrados, transmigrados internos)
  - La migración puede originarse por muchos factores no voluntarios
    - Migración económica
    - Persecución política (o por grupos criminales)
@@ -364,37 +401,40 @@ nos dará el mismo resultado que la base de datos.
 ** La respuesta oficial: Vale más el derecho
  - Al cuestionar a las autoridades electorales respecto a estos
    puntos, obviamente, están ya conscientes de ello
- - ¿La respuesta? Vale más permitir ejercer el derecho al voto que lo
-   que se pierde
+ - ¿La respuesta? /Vale más permitir ejercer el derecho al voto/ que
+   la certeza que se pierde
  - El impacto ha sido mínimo, a pesar de las grandes campañas
    publicitarias. De un [[http://listanominal.ife.org.mx/ubicamodulo/PHP/est_eo.php?edo=9][padrón electoral del DF de 7,679,911
    ciudadanos]] (2102-05-11):
    - *2006*: 5,500 votos de /chilangos/ registrados en el extranjero:
      *0.071% del total*
    - *2012*: Un /gran éxito/: Se inscribieron 10,786 /chilangos/ para
-     ejercer su derecho: *0.139% del total* (falta ver cuántos lo
-     ejercen)
+     ejercer su derecho: *0.139% del total*
 
 ** Agravando la situación: /[[http://votachilango.org.mx/][Vota Chilango]]/
- - El voto postal es un /engorro/
+ - El voto postal es un /engorro/, y se cree que desmotiva al votante
  - IEDF: [[http://www.votachilango.org.mx/pdf/ACU-017-12.pdf][¡Voto por Internet!]] (25-01-2012)
-   - El ciudadano elige al registrarse si quiere hacerlo postal o por
-     Internet. 4,192 eligieron votar por Internet.
+   - El ciudadano elige al registrarse la modalidad que prefiere emplear
+     - 4,192 por Internet; 2,639 ejercieron su voto (62.9%)
+     - 6,592 por vía postal; 5,272 ejercieron su voto (79.9%)
    - Autenticación por /contraseña de 16 caracteres enviada por correo
-     electrónico/; el sistema de contraseñas está abierto /desde el 15
-     de mayo/
-   - El 28 de junio abrirá el sistema para recibir votos
+     electrónico/; el sistema de contraseñas estuvo abierto /desde el
+     15 de mayo/.
+     - Sólo 3,142 personas solicitaron su contraseña (74.9%)
+   - El sistema para recibir votos estuvo abierto del 28 de junio al 1
+     de julio
  - …¿No suena a un reto de /capture la bandera/?
 
 ** Acceso a la información de /Vota Chilango/
-Realizamos una solicitud de información al IEDF preguntando:
+Realizamos solicitudes de información al IEDF preguntando:
 1. ¿Qué empresa desarrolló este esquema?
 2. ¿Qué base tecnológica emplea? (hardware, software)
 3. ¿Qué procesos de auditoría se han realizado? ¿Qué resultados
    obtuvieron?
+4. Algunas discrepancias y faltas de claridad numérica relativas a las
+   actas que contabilizaron las votaciones a distancia
 
 ** Acceso a la información de /Vota Chilango/
-El 21 de mayo obtuvimos respuesta:
 1. *[[http://www.scytl.com/es/index.html][Scytl Secure Internet Voting]]* (España)
 2. *Información reservada por siete años*
    - /el daño que puede producirse con la publicidad de la información
@@ -404,8 +444,24 @@ El 21 de mayo obtuvimos respuesta:
    alguno/
    - Nombre muy genérico, no he podido identificar a qué empresa
      específica se refiere
-   - ¡El sistema ya está en producción! ¿No hay aún resultados de
-     auditoría?
+   - ¡El sistema ya estábaen producción al momento de solicitar la
+     información! ¿No hay aún resultados de auditoría?
+4. Los números recién presentados
+
+** Veracruz
+- Aún no hay mucha información al respecto, pero parece ser el
+  siguiente estado en implementar voto electrónico
+- [[http://evoto.iiec.unam.mx/node/427][La intención es implementar voto por Internet]] - Citando al consejero
+  Alfonso Ayala:
+
+  #+begin_quote
+  […] el voto por internet es el futuro para cualquier tipo de proceso
+  electoral. La votación presencial utilizando la urna electrónica
+  está quedando atrás en cuanto a su uso, especialmente porque el
+  costo es superior al del voto por internet.
+  #+end_quote
+- Probablemente para la elección local de 2013 se haga un ejercicio
+  /no vinculante/
 
 * ¿Qué sigue?
 ** Invitación a participar
@@ -414,9 +470,9 @@ El 21 de mayo obtuvimos respuesta:
    coordinada
  - ¿Les interesa el tema? ¡Únanse al grupo de trabajo!
    - https://github.com/noevoto/noevoto
+   - http://evoto.iiec.unam.mx/
    - ¿Eres de la Ciudad de México? Reuniones de trabajo presenciales
-     (¿quincenales?  ¿mensuales?)
-   - Nuestros espacios en línea
+     (¿mensuales? ¿aperiódicas?)
  - Ampliar el debate, llevarlo a otros foros
    - El tema entra en foros de muy distintas naturalezas
    - Es importante hablarlo en foros técnicos, pero también en foros
@@ -445,7 +501,7 @@ Muchas gracias por su atención.
 #+LaTeX: \vfill
 Gunnar Wolf — [[mailto:gwolf@gwolf.org][gwolf@gwolf.org]]
 
-Instituto de Investigaciones Económicas UNAM
+Instituto de Investigaciones Económicas UNAM \\
 Desarrollador del Proyecto Debian
 
 #+LaTeX: \vfill {\scriptsize
